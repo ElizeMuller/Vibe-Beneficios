@@ -1,4 +1,4 @@
-fetch("./pages/header.html")
+fetch("./Pages/header.html")
   .then(response => {
     return response.text()
   })
