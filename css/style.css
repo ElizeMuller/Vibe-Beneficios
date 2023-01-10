@@ -20,7 +20,10 @@
 header {
     padding: 0.5rem 0 0;
     background-color: var(--bg-color-secondary);
+    margin: 0;
+    width: 100%;
     min-height: 20px;
+    
     color: var(--text-color);
     font-size: 1.1rem;
     
@@ -39,7 +42,8 @@ header {
   .header-brand-logo a {
     display: inline-flex;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0rem 1rem;
+    margin: 0rem 0.5rem;
     color: var(--text-header);
     text-decoration: none;
     font-family:var(--font-logo);
@@ -51,12 +55,13 @@ header {
   }
   
   .header-brand-logo img {
-    width: 4rem;
+    width: 10rem;
   }
   
   .header-navbar {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin: 0 1rem 0 1rem;
     
 
   }
@@ -158,7 +163,7 @@ footer {
 .section_termos > * {
   margin: 0.3rem;
 }
-.topicos_rodape{
+.topicos_rodape a{
   color: var(--text-color);
   text-decoration:none;
 
@@ -298,4 +303,15 @@ body{
 
 /* responsividade */
 @media screen and (max-width: 375px) {
+  header{
+    max-width:100%;
+    width:100%;
+    
+  }
+  .fa fa-bars{
+    padding:1rem;
+    display: flex;
+    position:relative;
+
+  }
 }
