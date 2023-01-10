@@ -1,10 +1,19 @@
-<!--  ----------------------------------------------------------------------  -->
-<!--  NOTA: Adicione o seguinte elemento <META> à sua página <HEAD>.  Se      -->
-<!--  necessário, modifique o parâmetro charset para especificar o conjunto   -->
-<!--  de caracteres de sua página HTML.                                       -->
-<!--  ----------------------------------------------------------------------  -->
 
-<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!--  ----------------------------------------------------------------------  -->
+    <!--  NOTA: Adicione o seguinte elemento <META> à sua página <HEAD>.  Se      -->
+    <!--  necessário, modifique o parâmetro charset para especificar o conjunto   -->
+    <!--  de caracteres de sua página HTML.                                       -->
+    <!--  ----------------------------------------------------------------------  -->
+
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 
     <!--  ----------------------------------------------------------------------  -->
     <!--  NOTA: Adicione o elemento <FORM> a seguir à sua página.                 -->
@@ -22,24 +31,73 @@
     <!--  <input type="hidden" name="debugEmail"                                  -->
     <!--  value="elize.muller@estudante.ifb.edu.br">                              -->
     <!--  ----------------------------------------------------------------------  -->
+
+</head>
+<body>
     
-    <label for="first_name">Primeiro Nome</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+<div class="Formulario">
+
+        <div class="CadastroTitulo">
+            <h1>Cadastre-se</h1> 
+        </div>
+
+        <div class="InputGroup"></div>
+            <div class="InputBox">
+                <label for="first_name"><b>Nome</label></b></label><br>
+                <input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+            </div>
+
+            <div class="InputBox">
+                <label for="last_name"><b>Sobrenome</b></label><br>
+                <input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+            </div>    
+
+            <div class="InputBox">
+                <label for="email"><b>E-mail</b></label><br>
+                <input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+            </div>
+
+            <div class="InputBox">
+                <label for="company"><b>Empresa</b></label><br>
+                <input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+            </div>
+
+            <div class="InputBox">
+                <label for="city"><b>Cidade</b></label><br>
+                <input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
+            </div>
+
+            <div class="InputBox">
+                <label for="state"><b>Estado/província</b></label><br>
+                <input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
+            </div>
+
+            <div class="InputBox">
+                <label><b>CPF</b></label><br>
+                <input  id="00NDn00000MPnL5" maxlength="100" name="00NDn00000MPnL5" size="20" type="text" /><br>
+            </div>
+
+            <div class="InputBox">
+                <label for="phone"><b>Telefone</b></label><br>
+                <input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+            </div>
+
+            <div class="InputBox">
+                <label><b>Tipo do cartão</b></label><br>
+                <select  id="00NDn00000MQ6G6" name="00NDn00000MQ6G6" title="Tipos de cartão">
+                    <option value="">-- Nenhum --</option><option value="Vibe vip">Vibe vip</option>
+                    <option value="Vibe premium">Vibe premium</option>
+                    <option value="Vibe platinum">Vibe platinum</option>
+                    </select><br>
+            </div>
+
+            <div>
+            <input type="submit" name="submit">
+            </div>
+
+            </form>
+        </div>
+</div>
     
-    <label for="last_name">Sobrenome</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
-    
-    <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
-    
-    <label for="company">Empresa</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
-    
-    <label for="city">Cidade</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
-    
-    <label for="state">Estado/província</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
-    
-    CPF:<input  id="00NDn00000MPnL5" maxlength="100" name="00NDn00000MPnL5" size="20" type="text" /><br>
-    
-    <label for="phone">Telefone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
-    
-    <input type="submit" name="submit">
-    
-    </form>
-    
+</body>
+</html>
