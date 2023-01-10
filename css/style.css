@@ -261,13 +261,38 @@ body{
 
 /* FORMS */
 .Formulario{
+  display: flex;
   font-family: sans-serif;
-  padding: 0;
-  margin: 0;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 3rem;
+}
+
+.InputGroup{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.InputBox{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.CadastroBotao{
+  background-color: white;
+  height: 30px;
+  width: 80px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.CadastroBotao:hover{
+  background-color: #70A7B3  ;
 }
 
 
