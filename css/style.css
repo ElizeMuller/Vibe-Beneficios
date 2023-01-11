@@ -295,6 +295,46 @@ footer {
 }
 
 /* TIPOS DE CARTÕES */
+.types-cards{
+  display:block;
+  width: 90%;
+  margin: 2rem 4rem;
+  padding:1rem;
+
+}
+.cardvip{
+  display:flex;
+  position: relative;
+
+}
+
+.cardpremium{
+  display:flex;
+  position: relative;
+}
+
+.cardplatinum{
+  display:flex;
+  position: relative;
+}
+.card__content{
+  display:grid;
+  width: 100%;
+  position: relative;
+  grid-template-columns: 2fr 2fr;
+}
+.card_img img{
+  width: 70%;
+  border-radius: 2rem;
+
+}
+/* card__title
+card__description
+card__benefits
+card__list
+card__item */
+
+/* FIM TIPOS DE CARTÕES! */
 
 /* FORMS */
 .CadastroCorpo{
