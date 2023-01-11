@@ -268,7 +268,7 @@ footer {
   padding: 0;
   font-family: sans-serif;
   align-items: center;
-  background-image: linear-gradient(#70A7B3, #7d7d7d  );
+  background-image: linear-gradient(to bottom, #70A7B3 20%, #7d7d7d 70%);
 }
 
 .TituloEmpresa{
@@ -388,6 +388,7 @@ footer {
   padding: 0.62rem;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 15%;
 }
 
 .CadastroBotao:hover{
