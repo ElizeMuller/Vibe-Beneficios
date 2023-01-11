@@ -268,6 +268,7 @@ footer {
   padding: 0;
   font-family: sans-serif;
   align-items: center;
+  background-image: linear-gradient(#70A7B3, #7d7d7d  );
 }
 
 .TituloEmpresa{
@@ -287,7 +288,7 @@ footer {
 
 .TextoEmpresa{
   color: black;
-  background-color: aliceblue;
+  /*background-color: aliceblue;*/
   margin-left: 30rem;
   margin-right: 30rem;
   padding: 10px;
