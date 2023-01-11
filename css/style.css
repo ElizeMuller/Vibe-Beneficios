@@ -265,39 +265,103 @@ body{
 /* TIPOS DE CARTÕES */
 
 /* FORMS */
-.Formulario{
-  display: flex;
+.CadastroCorpo{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: sans-serif;
+
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
   justify-content: center;
   align-items: center;
+}
+
+.CadastroContainer{
+  width: 80%;
+  height: 85vh;
+  display: flex;
+  box-shadow: 5px 5px 10px; color: rgb(0, 0, 0, .222);
+
+}
+
+.FormularioImagem{
+  width: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+  padding: 1rem;
+}
+
+.FormularioImagem img{
+  width: 31rem;
+}
+
+.Formulario{
+  width: 83%;
+  height: 82%;
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #70A7B3
+  ;
   padding: 3rem;
+  
+}
+
+.CadastroTitulo{
+  display: block;
+  color: black;
+  content: '';
+  margin: 0;
+  height: 0.3;
+  justify-content: space-between;
 }
 
 .InputGroup{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  flex-direction: column;
   padding: 1rem 0;
+  
 }
 
 .InputBox{
   display: flex;
   flex-direction: column;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.7rem;
+  color: black;
+}
+
+.InputBox input:hover {
+  background-color: #eeeeee75;
+}
+
+.InputBox input {
+  margin: 0.6rem 0;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #0000001c;
+  font-size: 0.8rem;
 }
 
 .CadastroBotao{
-  background-color: white;
-  height: 30px;
-  width: 80px;
-  border-radius: 10px;
-  font-weight: 600;
+  width: 100%;
+  border: none;
+  background-color: #6c63ff;
+  padding: 0.62rem;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .CadastroBotao:hover{
-  background-color: #70A7B3  ;
+  background-color: #1f3652  ;
+  color: white;
 }
 
 
