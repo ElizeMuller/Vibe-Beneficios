@@ -260,6 +260,29 @@ body{
   background-color: var(--bg-color);
 }
 /* SOBRE NÓS */
+.CorpoEmpresa{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  align-items: center;
+}
+
+.TituloEmpresa{
+  position: relative;
+  left: 40%;
+}
+
+.ImagemEmpresa{
+  position: relative;
+  width: 31rem;
+  left: 30%;
+}
+
+.TextoEmpresa{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
 
 /* TIPOS DE CARTÕES */
 
