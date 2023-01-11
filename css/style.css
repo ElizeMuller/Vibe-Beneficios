@@ -270,18 +270,21 @@ body{
 
 .TituloEmpresa{
   position: relative;
-  left: 40%;
+  left: 42%;
+  padding-bottom: 1rem;
+  text-decoration: underline;
 }
 
 .ImagemEmpresa{
   position: relative;
-  width: 31rem;
-  left: 30%;
+  width: 40rem;
+  left: 24%;
 }
 
 .TextoEmpresa{
-  padding-left: 4rem;
-  padding-right: 4rem;
+  background-color: aliceblue;
+  margin-left: 20.5rem;
+  margin-right: 24rem;
 }
 
 /* TIPOS DE CARTÕES */
