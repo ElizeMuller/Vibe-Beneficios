@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Cambo&family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Libre+Baskerville&display=swap');
 /* ROOT */
 :root {
   --ideal-viewport-width: 1600;
@@ -13,26 +13,80 @@
   --contraste-color: #70A7B3;
   --font-normal: "Barlow", sans-serif;
   --font-logo: "Libre Baskerville", serif;
-  --font-footer: "Barlow", sans-serif;
+  --font-footer: "Cambo", serif;
+  --font-header: "Cormorant Garamond", serif;
 }
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+/* HTML */
+html {
+  font-size: calc(
+    16 * clamp(0.7px, 100vw / var(--ideal-viewport-width), 1.3px)
+  );
+  height: 100%;
+}
+
+/*  BODY */
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+  font-family: var(--font-normal);
+  min-height: 100%;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.row-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.column-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* FIM DO BODY */
 
 /* header */
 header {
     padding: 0.5rem 0 0;
     background-color: var(--bg-color-secondary);
-    margin: 0;
-    width: 100%;
     min-height: 20px;
     color: var(--text-color);
     font-size: 1.1rem;
-    display:absolute;
-    position:relative;
+    
     
   }
   
   .nav {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1.5fr 2fr 1fr;
   }
   
   .header-brand-logo {
@@ -43,16 +97,13 @@ header {
   .header-brand-logo a {
     display: inline-flex;
     align-items: center;
-    padding: 0rem 1rem;
-    margin: 0rem 0.5rem;
+    padding: 0 1rem;
     color: var(--text-header);
     text-decoration: none;
-    font-family:var(--font-logo);
-  }
-  
-  .header-brand-logo a:hover {
-    border-bottom: 4px solid var(--contraste-color);
-
+    font-family:var(--font-header);
+    font-style: italic;
+    font-size: 1.5rem;
+   
   }
   
   .header-brand-logo img {
@@ -62,7 +113,6 @@ header {
   .header-navbar {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 0 1rem 0 0.5rem;
     
 
   }
@@ -73,9 +123,6 @@ header {
     justify-content: center;
     height: 100%;
     width: 100%;
-    text-decoration: none;
-    color: var(--text-color);
-    text-shadow: #1f3652 0.1rem 0.1rem 0;
   }
   
   .header-navbar a > i {
@@ -83,7 +130,6 @@ header {
   }
   
   .header-navbar a:hover {
-    border-bottom: 4px solid var(--contraste-color);
     color: var(--contraste-color);
   }
   
@@ -100,7 +146,6 @@ header {
   }
   
   .header-login a:hover {
-    border-bottom: 4px solid var(--contraste-color);
     color: var(--contraste-color);
   }
   
@@ -134,10 +179,10 @@ header {
   .dropdown-menu a:hover {
     color: var(--contraste-color);
   }
-  
+  /* FIM DO HEADER */
 
 /* footer */
-/* footer {
+footer {
   width: 100%;
   margin-top: 2rem;
   font-size: 1.1rem;
@@ -211,54 +256,11 @@ header {
 
 }
 
-@media screen and (max-width: 600px) {
-  .header-login,
-  .header-navbar {
-    display: none;
-  }
-  .header-brand-logo {
-    flex: 0 0 50%;
-  }
-  .header-dropdown {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex: 0 0 50%;
-  }
-  .nav {
-    display: flex;
-    justify-content: space-between;
-    justify-items: center;
-    flex-wrap: wrap;
-  }
-  .active {
-    display: block;
-  }
-  section.banner {
-    justify-content: center;
-  }
-  .content-banner {
-    text-align: center;
-    margin: 0 auto;
-    width: initial;
-  }
-  .content-banner p {
-    max-width: 100%;
-    text-align: left;
-  }
 
-  .go-to-top {
-    display: inherit;
-    right: 0.5rem;
-    bottom: 10%;
-  }
-} */
 
 
 /* INDEX */
-body{
-  background-color: var(--bg-color);
-}
+
 /* SOBRE NÓS */
 
 /* TIPOS DE CARTÕES */
@@ -366,15 +368,58 @@ body{
 
 /* responsividade */
 @media screen and (max-width: 375px) {
-  header{
-    max-width:100%;
-    width:100%;
-    
+  .header-brand-logo {
+    flex: 0 0 50%;
   }
-  .fa fa-bars{
-    padding:1rem;
+  .header-dropdown {
     display: flex;
-    position:relative;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 0 0 50%;
 
+  
+
+  }
+}
+@media screen and (max-width: 600px) {
+  .header-login,
+  .header-navbar {
+    display: none;
+  }
+  .header-brand-logo {
+    flex: 0 0 50%;
+  }
+  .header-dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 0 0 50%;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    flex-wrap: wrap;
+  }
+  .active {
+    display: block;
+  }
+  section.banner {
+    justify-content: center;
+  }
+  .content-banner {
+    text-align: center;
+    margin: 0 auto;
+    width: initial;
+  }
+  .content-banner p {
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .go-to-top {
+    display: inherit;
+    right: 0.5rem;
+    bottom: 10%;
   }
 }
