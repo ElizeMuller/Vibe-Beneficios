@@ -470,7 +470,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 1rem 0;
+  padding: 0.9rem 0;
   
 }
 
@@ -486,8 +486,8 @@ footer {
 }
 
 .InputBox input {
-  margin: 0.6rem 0;
-  padding: 0.8rem 1.2rem;
+  margin: 0.4rem 0;
+  padding: 0.7rem 1.2rem;
   border: none;
   border-radius: 10px;
   box-shadow: 1px 1px 6px #0000001c;
@@ -501,7 +501,6 @@ footer {
   padding: 0.62rem;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 15%;
 }
 
 .CadastroBotao:hover{
