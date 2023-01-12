@@ -320,19 +320,23 @@ footer {
 .type-cards{
   max-width:100%;
   margin: 1rem 0;
-  padding: 1rem 0;
+  padding: 1rem 2rem;
   background-image:linear-gradient( var(--bg-color-secondary) 32%, #7d7d7d 80%, var(--text-color) 100%);
+  text-align: left;
+  align-items: left;
+  align-content: space-between;
 
 }
 .cardvip{
   display:grid;
   position: relative;
-  padding: 0.5rem;
-  margin:2rem;
+  padding: 0.5rem 0.2rem 0.5rem 0.2rem;
+  margin:2.5rem 0 2rem 4rem;
   width: 90%;
   grid-template-columns: 2fr 2fr;
   /* background-image:linear-gradient(90deg, var(--bg-color-secondary) 30%, #7d7d7d 120%); */
   
+
 
 
 }
@@ -340,11 +344,13 @@ footer {
 .cardpremium{
   display:grid;
   position: relative;
-  padding: 0.5rem;
-  margin:2rem;
+  padding: 0.5rem 0.2rem 0.5rem 0.2rem;
+  margin:2.5rem 0 2rem 4rem;
   width: 90%;
   grid-template-columns: 2fr 2fr;
   
+
+
 
 
 }
@@ -352,14 +358,24 @@ footer {
 .cardplatinum{
   display:grid;
   position: relative;
-  padding: 0.5rem;
-  margin:2rem;
+  padding: 0.5rem 0.2rem 0.5rem 0.2rem;
+  margin:2.5rem 0 2rem 4rem;
   width: 90%;
   grid-template-columns: 2fr 2fr;
- 
+
+
 
 
 }
+/* .cardvip:hover{
+box-shadow: bottom(--text-header);
+}
+.cardpremium:hover{
+
+}
+.cardplatinum:hover{
+
+} */
 .card__content{
   display:flex;
   width: 100%;
@@ -368,35 +384,42 @@ footer {
 }
 .card_img img{
   width: 90%;
+  padding: 0.5rem;
   border-radius: 2rem;
+  border-color:transparent 0.5px solid;
+
+}
+
+  
+.card_img img:hover{
+  box-shadow: var(--text-header) 0px 0px 10px 5px;
+  border: var(--text-header) 0.5px solid;
+  
 }
 /* PREMIUM */
 .cardpremium .card__content{
-  margin: 0 0 0 8rem;
+  margin: 2rem 0 0 3rem;
 }
 .cardpremium img{
-  align-items: right;
-  align-content: right;
-  text-align: right;
-  align-self: right;
-  margin: 0 1rem 0 6rem; 
+  margin: 0 1rem 0 3.5rem; 
 }
 /* VIP */
 .cardvip .card__content{
-  margin: 0 0 0 8rem;
+  margin: 2rem 0 0 8rem;
 }
 .cardvip img{
-  margin: 0 4rem 0 6rem; 
+  margin: 0 4rem 0 1rem; 
 }
 /* PLATINUM */
 .cardplatinum .card__content{
-  margin: 0 0 0 8rem;
+  margin: 2rem 0 0 8rem;
 }
 .cardplatinum img{
-  margin: 0 4rem 0 6rem; 
+  margin: 0 4rem 0 1rem; 
+
 }
 .card__title{
-  padding: 1rem 0rem;
+  padding: 2rem 0rem;
 }
 
 /* .card__description{}
