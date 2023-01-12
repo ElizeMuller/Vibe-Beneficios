@@ -524,11 +524,12 @@ box-shadow: bottom(--text-header);
   align-items: center;
   justify-content: center;
   background-color: antiquewhite;
-  padding: 1rem;
+  
 }
 
 .FormularioImagem img{
-  width: 31rem;
+  width: 32rem;
+  height: 100%;
 }
 
 .Formulario{
@@ -652,3 +653,17 @@ box-shadow: bottom(--text-header);
     bottom: 10%;
   }
 }
+
+/*cadastro*/
+@media screen and (max-width: 1330px) {
+  .FormularioImagem {
+      display: none;
+  }
+  .CadastroContainer {
+      width: 50%;
+  }
+  .Formulario {
+      width: 80%;
+  }
+}
+
