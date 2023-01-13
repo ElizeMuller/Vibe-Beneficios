@@ -311,7 +311,7 @@ font-size: 4rem;
   align-items: center;
   justify-content: center;
   align-items: center;
-  background-image:linear-gradient(rgb());
+  background-image:linear-gradient(rgba(255,255,255,0.1), rgba(86, 151, 226, 0.548) );
   font-family: var(--font-header);
   font-size: 1.2rem;
   color: var(--bg-color-secondary);
