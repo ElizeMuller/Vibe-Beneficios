@@ -31,6 +31,7 @@ html {
     16 * clamp(0.7px, 100vw / var(--ideal-viewport-width), 1.3px)
   );
   height: 100%;
+  
 
 }
 
@@ -42,6 +43,7 @@ body {
   font-family: var(--font-normal);
   min-height: 100%;
   min-width: 100%;
+  
 }
 
 button,
@@ -82,13 +84,24 @@ header {
     min-height: 20px;
     color: var(--text-color);
     font-size: 1.1rem;
-    
-    
+    overflow: hidden;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
   }
+
+    
+    
+  
   
   .nav {
     display: grid;
-    grid-template-columns: 1.5fr 2fr 1fr;
+    grid-template-columns: 1fr 2fr ;
+   
+    
   }
   
   .header-brand-logo {
@@ -109,12 +122,12 @@ header {
   }
   
   .header-brand-logo img {
-    width: 10rem;
+    width: 7rem;
   }
   
   .header-navbar {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     
 
   }
@@ -135,25 +148,7 @@ header {
     color: var(--contraste-color);
   }
   
-  .header-login {
-    height: 100%;
-  }
   
-  .header-login a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-  }
-  
-  .header-login a:hover {
-    color: var(--contraste-color);
-  }
-  
-  .header-login a > i {
-    margin-right: 0.4em;
-  }
   
   .header-dropdown {
     display: none;
@@ -262,6 +257,133 @@ footer {
 
 
 /* INDEX */
+
+/* banner */
+.banner{
+  width:100%;
+  height: 725px;
+  Top:2rem;
+  background-color: rgb(0, 0, 0);
+  z-index: 4;
+
+}
+.banner img{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.27;
+  
+  image-resolution: auto;
+  display:flex;
+  position: absolute !important;
+z-index: 1;
+
+}
+.banner-content{
+  display: block;
+  position: absolute;
+  top: 29rem;
+  left:17rem;
+  align-items: center;
+  text-align: center;
+  color:#FFC85A;
+  z-index:10;
+  font-family: var(--font-header);
+  text-shadow: -0.2rem 0.2rem 0.2rem #000;
+  text-decoration:dotted;
+
+}
+.banner-content h1{
+  font-size: 2rem;
+
+}
+.banner-content p{
+font-size: 4rem;
+
+}
+/* FIM BANNER */
+
+/* SERVIÇOS */
+ .container-body{ 
+ max-width:  100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  background-image:linear-gradient(rgba(255,255,255,0.1), rgba(86, 151, 226, 0.548) );
+  font-family: var(--font-header);
+  font-size: 1.2rem;
+  color: var(--bg-color-secondary);
+  text-decoration:none;
+  
+ }
+ .servicos{
+  display: flexbox;
+  flex-wrap: wrap;
+  padding: 4rem 1.5rem 2rem 1.5rem ;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+
+ }
+ .servicos h1{
+  text-align: center;
+  padding:8rem 0 0.5rem 0;
+  color:var(--bg-color-secondary);
+  font-weight:bold;
+  font-size: 3rem;
+ }
+  .servicos p{
+    text-align: center;
+    padding: 0 0 2rem 0;
+    font-size: 1.5rem;
+    
+ }
+ .contents-serv{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 3rem 1rem 2rem 1rem;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  column-gap: 10rem;
+  text-align: center;
+
+ }
+ 
+ 
+ .content-serv i{
+  font-size: 5rem;
+  color: var(--text-color);
+  text-decoration:none;
+  text-align: center;
+  padding: 1rem 0;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  margin: 0 auto;
+  padding:0.5rem;
+ }
+  .content-serv h3{
+  text-align:center; 
+  padding: 1rem 0; 
+  font-size: 1.7rem;
+  }
+  .content-serv p{
+    text-align:left;
+  }
+/* .cards-grid{} */
+/* .card-01 .servicos{} */
+
+
+ /* FIM SERVIÇOS */
+
+/* CARTÕES */
+
+/* FIM CARTÕES */
+
 
 /* SOBRE NÓS */
 .CorpoEmpresa{
