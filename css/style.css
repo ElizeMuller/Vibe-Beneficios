@@ -316,6 +316,91 @@ footer {
   
 }
 
+.SobreBotao{
+  margin-top: 4%;
+  background-color: #fff;
+  color: black;
+  font-size: large;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.SobreBotao:hover{
+  background-color: black;
+  color: white;
+}
+
+.SobreFade{
+  position: fixed;
+  display: none;
+  margin: 0;
+  padding: 0;
+  background-color: #000000b4;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+.SobreModal{
+  background-color: #1f3652;
+  position: fixed;
+  display: none;
+  z-index: 20;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 60%;
+  height: 70%;
+  padding: 1.5rem;
+  font-size: medium;
+  border-radius: 2rem;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid #FFC85A;
+  box-shadow: 0 0 0 10px #1f3652;
+}
+
+
+.ModalImagem{
+  position: relative;
+  /*display: flex;*/
+  margin: 1.5rem;
+  left: 5%;
+  
+}
+
+.ModalImagem img{
+  position: relative;
+  width: 15rem;
+  border-radius: 100%;
+}
+
+.SobreTitulo{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 35%;
+  left: 30%;
+  text-decoration: underline;
+}
+
+.ModalTexto{
+  /*display: flex;*/
+  margin: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.SobreModal.mod,.SobreFade.mod{
+  display: flex;
+ 
+}
+
 /* TIPOS DE CARTÕES */
 .type-cards{
   max-width:100%;
@@ -441,7 +526,7 @@ box-shadow: bottom(--text-header);
   display: flex;
   align-items: center;
   justify-content: center;
-  align-items: center;
+  background-color: #7d7d7d;
 }
 
 .CadastroContainer{
