@@ -72,14 +72,14 @@ $ cd HTML2
 # Executar com o Live Server
 ```
 
-<h4 align="center" id="contato">
-    <a href="https://www.linkedin.com/in/anna-karoliny-devsalesforce/" target="_blank"><button "style="background-color:gold; color: silver">Anna Nunes</button></a>
-    <a href="https://www.linkedin.com/in/angelicavisciano/" target="_blank"><button "style="background-color:gold; color: silver">Angélica Visciano</button></a>
-    <a href="https://www.linkedin.com/in/betadamasoestudantesalesforce/" target="_blank"><button "style="background-color:gold; color: silver">Elizabete Damaso</button></a>
-    <a href="https://www.linkedin.com/in/elizemuller/" target="_blank"><button "style="background-color:gold; color: silver">Elize Müller</button></a>
-    <a href="https://www.linkedin.com/in/marcelojacomedelima/" target="_blank"><button "style="background-color:gold; color: silver">Marcelo Jácome</button></a>
-    <a href=""https://www.linkedin.com/in/ramirotellezm/" target="_blank"><button "style="background-color:gold; color: silver">Ramiro Téllez Matínez</button></a>
-</h4>
+<h4 align="center" id="contato"> Entre em contato conosco!</h4>
+    <a href="https://www.linkedin.com/in/anna-karoliny-devsalesforce/" target="_blank"><button "style=background-color:gold; color: silver">Anna Nunes</button></a>
+    <a href="https://www.linkedin.com/in/angelicavisciano/" target="_blank"><button "style=background-color:gold; color: silver">Angélica Visciano</button></a>
+    <a href="https://www.linkedin.com/in/betadamasoestudantesalesforce/" target="_blank"><button "style=background-color:gold; color: silver">Elizabete Damaso</button></a>
+    <a href="https://www.linkedin.com/in/elizemuller/" target="_blank"><button "style=background-color:gold; color: silver">Elize Müller</button></a>
+    <a href="https://www.linkedin.com/in/marcelojacomedelima/" target="_blank"><button "style=background-color:gold; color: silver">Marcelo Jácome</button></a>
+    <a href=""https://www.linkedin.com/in/ramirotellezm/" target="_blank"><button "style=background-color:gold; color: silver">Ramiro Téllez Matínez</button></a>
+
 
 [vc]: https://code.visualstudio.com/
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
