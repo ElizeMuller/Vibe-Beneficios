@@ -73,12 +73,12 @@ $ cd HTML2
 ```
 
 <h4 align="center" id="contato"> Entre em contato conosco!</h4>
-    <p><a href="https://www.linkedin.com/in/anna-karoliny-devsalesforce/" target="_blank"><button style="background-color:gold; color: silver; width:20px;text-decoration:none;padding:0.2rem">Anna Nunes</button></a></p>
-    <p><a href="https://www.linkedin.com/in/angelicavisciano/" target="_blank"><button style="background-color:gold; color: silver; width:20px;text-decoration:none;padding:0.2rem">Angélica Visciano</button></a></p>
-    <p><a href="https://www.linkedin.com/in/betadamasoestudantesalesforce/" target="_blank"><button style="background-color:gold; color: silver; width:20px;text-decoration:none;padding:0.2rem">Elizabete Damaso</button></a></p>
-    <p><a href="https://www.linkedin.com/in/elizemuller/" target="_blank"><button style="background-color:gold; color: silver; width:20px;text-decoration:none;padding:0.2rem">Elize Müller</button></a></p>
-    <p><a href="https://www.linkedin.com/in/marcelojacomedelima/" target="_blank"><button style="background-color:gold; color: silver; width:20px;text-decoration:none;padding:0.2rem">Marcelo Jácome</button></a></p>
-    <p><a href=""https://www.linkedin.com/in/ramirotellezm/" target="_blank"><button style="background-color:gold; color: silver; width:20px;text-decoration:none;padding:0.2rem">Ramiro Téllez Matínez</button></a></p>
+    <p><a href="https://www.linkedin.com/in/anna-karoliny-devsalesforce/" target="_blank" text-decoration="none">button style="background-color:grey; color: white; width:20px;text-decoration:none;padding:0.2rem">Anna Nunes</button></a></p>
+    <p><a href="https://www.linkedin.com/in/angelicavisciano/" target="_blank" text-decoration="none"><button style="background-color:grey; color: white; width:20px;text-decoration:none;padding:0.2rem">Angélica Visciano</button></a></p>
+    <p><a href="https://www.linkedin.com/in/betadamasoestudantesalesforce/" target="_blank" text-decoration="none">button style="background-color:grey; color: white; width:20px;text-decoration:none;padding:0.2rem">Elizabete Damaso</button></a></p>
+    <p><a href="https://www.linkedin.com/in/elizemuller/" target="_blank" text-decoration="none">button style="background-color:grey; color: white; width:20px;text-decoration:none;padding:0.2rem">Elize Müller</button></a></p>
+    <p><a href="https://www.linkedin.com/in/marcelojacomedelima/" target="_blank" text-decoration="none">button style="background-color:grey; color: white; width:20px;text-decoration:none;padding:0.2rem">Marcelo Jácome</button></a></p>
+    <p><a href="https://www.linkedin.com/in/ramirotellezm/" target="_blank" text-decoration="none">button style="background-color:grey; color: white; width:20px;text-decoration:none;padding:0.2rem">Ramiro Téllez Matínez</button></a></p>
 
 
 [vc]: https://code.visualstudio.com/
