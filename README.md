@@ -26,7 +26,7 @@
 <h4 align="center">
   <p>Projeto Final do BootCamp em Salesforce da SoulCode</p>
   
-  <p>Desenvolvido como projeto final pelos estudantes da turma BC28 - SF7 da SoulCode.</p>
+  <p>Desenvolvido pelos estudantes da turma BC28 - SF7 da SoulCode.</p>
   <p><img alt="Developer" src="https://img.shields.io/badge/Desenvolvedores-gray?style=for-the-badge&logo=appveyor"></p>
   
   <p>Anna Nunes</p>
@@ -73,12 +73,12 @@ $ cd HTML2
 ```
 
 <h4 align="center" id="contato"> Entre em contato conosco!</h4>
-    <p><a href="https://www.linkedin.com/in/anna-karoliny-devsalesforce/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Anna%20Nunes-gray"></a></p>
-    <p><a href="https://www.linkedin.com/in/angelicavisciano/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Angélica%20Visciano-gray"></a></p>
-    <p><a href="https://www.linkedin.com/in/betadamasoestudantesalesforce/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Elizabete%20Damaso-gray"></a></p>
-    <p><a href="https://www.linkedin.com/in/elizemuller/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Elize%20Müller-gray"></a></p>
-    <p><a href="https://www.linkedin.com/in/marcelojacomedelima/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Marcelo%20Jácome-gray"></a></p>
-    <p><a href="https://www.linkedin.com/in/ramirotellezm/" target="_blank" text-decoration="none"><img alt="Developer" ssrc="https://img.shields.io/badge/Made%20by-Ramiro%20Téllez-gray%20Martínez"></a></p>
+    <p align="center" padding="1rem"><a href="https://www.linkedin.com/in/anna-karoliny-devsalesforce/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Anna%20Nunes-blue" height="25px" margin="0.5rem"></a>
+    <a href="https://www.linkedin.com/in/angelicavisciano/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Angélica%20Visciano-blue" height="25px" margin="0.5rem"></a>
+    <p align="center" padding="1rem"><a href="https://www.linkedin.com/in/betadamasoestudantesalesforce/" target="_blank" text-decoration="none" ><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Elizabete%20Damaso-blue" height="25px" margin="0.5rem"></a>
+    <a href="https://www.linkedin.com/in/elizemuller/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Elize%20Müller-blue" height="25px" margin="0.5rem"></a></p>
+    <p align="center" padding="1rem"><a href="https://www.linkedin.com/in/marcelojacomedelima/" target="_blank" text-decoration="none" ><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Marcelo%20Jácome-blue" height="25px" margin="0.5rem"></a>
+    <a href="https://www.linkedin.com/in/ramirotellezm/" target="_blank" text-decoration="none" ><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Ramiro%20Téllez-blue" height="25px" margin="0.5rem"></a></p>
 
 
 [vc]: https://code.visualstudio.com/
