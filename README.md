@@ -73,10 +73,10 @@ $ cd HTML2
 ```
 
 <h4 align="center" id="contato"> Entre em contato conosco!</h4>
-    <p align="center"><a href="https://www.linkedin.com/in/anna-karoliny-devsalesforce/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Anna%20Nunes-blue"></a>
+    <p align="center" padding="1rem"><a href="https://www.linkedin.com/in/anna-karoliny-devsalesforce/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Anna%20Nunes-blue"></a>
     <a href="https://www.linkedin.com/in/angelicavisciano/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Angélica%20Visciano-blue"></a>
     <a href="https://www.linkedin.com/in/betadamasoestudantesalesforce/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Elizabete%20Damaso-blue"></a></p>
-    <p align="center"><a href="https://www.linkedin.com/in/elizemuller/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Elize%20Müller-blue"></a>
+    <p align="center" padding="1rem"><a href="https://www.linkedin.com/in/elizemuller/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Elize%20Müller-blue"></a>
     <a href="https://www.linkedin.com/in/marcelojacomedelima/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Marcelo%20Jácome-blue"></a>
     <a href="https://www.linkedin.com/in/ramirotellezm/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Ramiro%20Téllez%20Martínez-blue"></a></p>
 
