@@ -13,7 +13,6 @@
     <!--  de caracteres de sua página HTML.                                       -->
     <!--  ----------------------------------------------------------------------  -->
 
-    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 
     <!--  ----------------------------------------------------------------------  -->
     <!--  NOTA: Adicione o elemento <FORM> a seguir à sua página.                 -->
@@ -22,7 +21,7 @@
     
 
 </head>
-<body class="CadastroCorpo">
+<div class="CadastroCorpo">
 
 <div class="CadastroContainer">
 
@@ -113,7 +112,7 @@
             <div class="InputBox">
                 <label for="phone"><b>Empresa</b></label>
                 <input  id="company" maxlength="40" name="company" size="20" type="text" placeholder="Digite o nome da sua empresa" required /><br>
-            </div>
+            </div> <!-- InputBox -->
 
             <div class="InputBox">
                 <label><b>Modelo do cartão</b></label>
@@ -122,19 +121,19 @@
                     <option value="Vibe Premium">Vibe Premium</option>
                     <option value="Vibe Platinum">Vibe Platinum</option>
                     </select><br>
-            </div>
+            </div> <!-- InputBox -->
 
             <input type="submit" name="submit" class="CadastroBotao" id="BotaoOrg">
             
 
-            </div>
+            </div> <!-- InputGroup -->
 
-        </div>
+        </div> <!-- Formulario -->
 
-    </form>
+    </form> <!-- Formulario -->
             
-</div>
+</div> <!-- CadastroContainer -->
    
 
-</body>
+</div>
 </html>
