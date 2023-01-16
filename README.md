@@ -74,7 +74,7 @@ $ cd HTML2
 
 <h4 align="center" id="contato">
     <a href="https://www.linkedin.com/in/anna-karoliny-devsalesforce/" target="_blank"><button "style="background-color:gold; color: silver">Anna Nunes</button></a>
-    <a href="https://www.linkedin.com/in/angelicavisciano/" target="_blank"><button "style="background-color:gold; color: silver">Angélica Visciano/button></a>
+    <a href="https://www.linkedin.com/in/angelicavisciano/" target="_blank"><button "style="background-color:gold; color: silver">Angélica Visciano</button></a>
     <a href="https://www.linkedin.com/in/betadamasoestudantesalesforce/" target="_blank"><button "style="background-color:gold; color: silver">Elizabete Damaso</button></a>
     <a href="https://www.linkedin.com/in/elizemuller/" target="_blank"><button "style="background-color:gold; color: silver">Elize Müller</button></a>
     <a href="https://www.linkedin.com/in/marcelojacomedelima/" target="_blank"><button "style="background-color:gold; color: silver">Marcelo Jácome</button></a>
