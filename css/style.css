@@ -311,7 +311,7 @@ font-size: 4rem;
   align-items: center;
   justify-content: center;
   align-items: center;
-  background-image:linear-gradient(rgba(255,255,255,0.1), rgba(86, 151, 226, 0.548) );
+  background-color:silver;
   font-family: var(--font-header);
   font-size: 1.2rem;
   color: var(--bg-color-secondary);
@@ -320,8 +320,9 @@ font-size: 4rem;
  }
  .servicos{
   display: flexbox;
+  flex-direction: column;
   flex-wrap: wrap;
-  padding: 4rem 1.5rem 2rem 1.5rem ;
+  padding: 4rem 0rem 2rem 1.5rem ;
   align-items: center;
   justify-content: center;
   align-items: center;
@@ -336,43 +337,66 @@ font-size: 4rem;
  }
   .servicos p{
     text-align: center;
-    padding: 0 0 2rem 0;
+    padding: 0 0 3rem 0;
     font-size: 1.5rem;
+    font-family: var(--font-footer);
     
  }
  .contents-serv{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   padding: 3rem 1rem 2rem 1rem;
   align-items: center;
   justify-content: center;
   align-content: center;
-  column-gap: 10rem;
+  column-gap: 3rem;
   text-align: center;
 
  }
- 
+ .content-serv{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 1rem;
+  display:block;
+ }
  
  .content-serv i{
   font-size: 5rem;
   color: var(--text-color);
+  border-radius: 50%;
+  background-color: var(--bg-color-secondary);
+  border: var(--text-color) 0.5px solid;
   text-decoration:none;
   text-align: center;
-  padding: 1rem 0;
   align-items: center;
   justify-content: center;
-  align-content: center;
-  align-self: center;
-  margin: 0 auto;
-  padding:0.5rem;
+  align-items: center;
+  padding: 2rem ;
+
+  
  }
   .content-serv h3{
   text-align:center; 
+  font-style: normal;
+  font-weight: bold;
+  text-shadow: rgb(255, 255, 255) 0.1rem -0.1rem 0.1rem;
   padding: 1rem 0; 
   font-size: 1.7rem;
+  margin:0;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
   }
   .content-serv p{
-    text-align:left;
+    text-align:center;
+    padding: 2rem;
+    margin: 0 1rem 0 0.5rem;
+    justify-items: auto;
+    font-weight: 300;
+    font-size: 1.3rem;
+    font-family: var(--font-footer);
   }
 /* .cards-grid{} */
 /* .card-01 .servicos{} */
