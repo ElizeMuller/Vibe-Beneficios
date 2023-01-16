@@ -29,12 +29,12 @@
   <p>Desenvolvido como projeto final pelos estudantes da turma BC28 - SF7 da SoulCode.</p>
   <p><img alt="Developer" src="https://img.shields.io/badge/Desenvolvedores-gray?style=for-the-badge&logo=appveyor"></p>
   
-  <p>Anna Nunes
+  <p>Anna Nunes</p>
   <p>Angélica Visciano</p>
   <p>Elizabete Damaso</p>
   <p>Elize Müller</p>
   <p>Marcelo Jácome</p>
-  <p>Ramiro Téllez Matínez</p>
+  <p>Ramiro Téllez Martínez</p>
 
   <p>
   Agradecemos aos nossos professores e orientadores de Bootcamp, Filipe Santana, Lorena Meireles, Renan Mussato, pelo conhecimento compartilhado conosco.
@@ -73,12 +73,12 @@ $ cd HTML2
 ```
 
 <h4 align="center" id="contato"> Entre em contato conosco!</h4>
-    <p><a href="https://www.linkedin.com/in/anna-karoliny-devsalesforce/" target="_blank" text-decoration="none"><button style="background-color:grey; color: white; width:20px;text-decoration:none;padding:0.2rem">Anna Nunes</button></a></p>
-    <p><a href="https://www.linkedin.com/in/angelicavisciano/" target="_blank" text-decoration="none"><button style="background-color:grey; color: white; width:20px;text-decoration:none;padding:0.2rem">Angélica Visciano</button></a></p>
-    <p><a href="https://www.linkedin.com/in/betadamasoestudantesalesforce/" target="_blank" text-decoration="none"><button style="background-color:grey; color: white; width:20px;text-decoration:none;padding:0.2rem">Elizabete Damaso</button></a></p>
-    <p><a href="https://www.linkedin.com/in/elizemuller/" target="_blank" text-decoration="none"><button style="background-color:grey; color: white; width:20px;text-decoration:none;padding:0.2rem">Elize Müller</button></a></p>
-    <p><a href="https://www.linkedin.com/in/marcelojacomedelima/" target="_blank" text-decoration="none"><button style="background-color:grey; color: white; width:20px;text-decoration:none;padding:0.2rem">Marcelo Jácome</button></a></p>
-    <p><a href="https://www.linkedin.com/in/ramirotellezm/" target="_blank" text-decoration="none"><button style="background-color:grey; color: white; width:20px;text-decoration:none;padding:0.2rem">Ramiro Téllez Matínez</button></a></p>
+    <p><a href="https://www.linkedin.com/in/anna-karoliny-devsalesforce/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Anna%20Nunes-gray"></a></p>
+    <p><a href="https://www.linkedin.com/in/angelicavisciano/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Angélica%20Visciano-gray"></a></p>
+    <p><a href="https://www.linkedin.com/in/betadamasoestudantesalesforce/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Elizabete%20Damaso-gray"></a></p>
+    <p><a href="https://www.linkedin.com/in/elizemuller/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Elize%20Müller-gray"></a></p>
+    <p><a href="https://www.linkedin.com/in/marcelojacomedelima/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Marcelo%20Jácome-gray"></a></p>
+    <p><a href="https://www.linkedin.com/in/ramirotellezm/" target="_blank" text-decoration="none"><img alt="Developer" ssrc="https://img.shields.io/badge/Made%20by-Ramiro%20Téllez-gray%20Martínez"></a></p>
 
 
 [vc]: https://code.visualstudio.com/
