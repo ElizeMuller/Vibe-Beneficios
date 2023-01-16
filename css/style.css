@@ -311,7 +311,7 @@ font-size: 4rem;
   align-items: center;
   justify-content: center;
   align-items: center;
-  background-color:rgba(255, 255, 255, 0.692);
+  background-image: linear-gradient( rgba(255, 255, 255, 0.87) 50%, rgb(31, 54, 82) 70%);
   font-family: var(--font-header);
   font-size: 1.2rem;
   color: var(--bg-color-secondary);
@@ -330,7 +330,7 @@ font-size: 4rem;
  }
  .servicos h1{
   text-align: center;
-  padding:8rem 0 0.5rem 0;
+  padding:6rem 0 0.5rem 0;
   color:var(--bg-color-secondary);
   font-weight: 900;
   font-size: 3rem;
@@ -353,6 +353,7 @@ font-size: 4rem;
   align-content: center;
   column-gap: 3rem;
   text-align: center;
+  max-height: 500px;
 
  }
  .content-serv{
@@ -570,7 +571,9 @@ font-size: 4rem;
 }
 .cardvip{
   display:grid;
+  color: var(--text-color);
   position: relative;
+  text-shadow: #000 0.1rem 0.1rem 0.2rem;
   padding: 0.5rem 0.2rem 0.5rem 0.2rem;
   margin:2.5rem 0 2rem 4rem;
   width: 90%;
@@ -585,6 +588,8 @@ font-size: 4rem;
 .cardpremium{
   display:grid;
   position: relative;
+  color: var(--text-color);
+  text-shadow: #000 0.1rem 0.1rem 0.2rem;
   padding: 0.5rem 0.2rem 0.5rem 0.2rem;
   margin:2.5rem 0 2rem 4rem;
   width: 90%;
@@ -599,6 +604,8 @@ font-size: 4rem;
 .cardplatinum{
   display:grid;
   position: relative;
+  color: var(--text-color);
+  text-shadow: #000 0.1rem 0.1rem 0.2rem;
   padding: 0.5rem 0.2rem 0.5rem 0.2rem;
   margin:2.5rem 0 2rem 4rem;
   width: 90%;
