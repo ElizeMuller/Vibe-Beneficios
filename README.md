@@ -9,7 +9,7 @@
 <p align="center">
  
   <img alt="Feito por" src="https://img.shields.io/badge/Made%20By-Grupo%2008%20SoulCode-yellow">
-	 <a href="#contato">
+	 <a href="readme.md#contato">
   </a>
   
   <img alt="Languages" src="https://img.shields.io/badge/Language-3-orange">
@@ -26,8 +26,8 @@
 <h4 align="center">
   <p>Projeto Final do BootCamp em Salesforce da SoulCode</p>
   
-  <p>Desenvolvido como projeto final pelos estudantes da turma BC28 - SF7 da SoulCode. 
-  Desenvolvedores: </p>
+  <p>Desenvolvido como projeto final pelos estudantes da turma BC28 - SF7 da SoulCode.</p>
+  <p><img alt="Developer" src="https://img.shields.io/badge/Desenvolvedores-gray?style=for-the-badge&logo=appveyor"></p>
   
   <p>Anna Nunes
   <p>Angélica Visciano</p>
@@ -73,6 +73,7 @@ $ cd HTML2
 ```
 
 <h4 align="center" id="contato">
+    <a href="https://www.linkedin.com/in/anna-karoliny-devsalesforce/" target="_blank"><button "style="background-color:gold; color: silver">Anna Nunes</button></a>
     Feito por Anna Nunes 👋 <a href="https://www.linkedin.com/in/anna-karoliny-devsalesforce/" target="_blank">Entre em contato!</a>
     Feito por Angélica Visciano 👋 <a https://www.linkedin.com/in/angelicavisciano/" target="_blank">Entre em contato!</a>
     Feito por Elizabete Damaso 👋 <a href="https://www.linkedin.com/in/betadamasoestudantesalesforce/" target="_blank">Entre em contato!</a>
@@ -84,4 +85,4 @@ $ cd HTML2
 [vc]: https://code.visualstudio.com/
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-[demo]: https://github.com/haruheal/SoulCode-Exercises
+[demo]: https://github.com/ElizeMuller/Vibe-Beneficios
