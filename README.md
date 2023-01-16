@@ -74,12 +74,11 @@ $ cd HTML2
 
 <h4 align="center" id="contato">
     <a href="https://www.linkedin.com/in/anna-karoliny-devsalesforce/" target="_blank"><button "style="background-color:gold; color: silver">Anna Nunes</button></a>
-    Feito por Anna Nunes 👋 <a href="https://www.linkedin.com/in/anna-karoliny-devsalesforce/" target="_blank">Entre em contato!</a>
-    Feito por Angélica Visciano 👋 <a https://www.linkedin.com/in/angelicavisciano/" target="_blank">Entre em contato!</a>
-    Feito por Elizabete Damaso 👋 <a href="https://www.linkedin.com/in/betadamasoestudantesalesforce/" target="_blank">Entre em contato!</a>
-    Feito por Elize Müller 👋 <a href="https://www.linkedin.com/in/elizemuller/" target="_blank">Entre em contato!</a>
-    Feito por Marcelo Jácome  👋 <a href="https://www.linkedin.com/in/marcelojacomedelima/" target="_blank">Entre em contato!</a>
-    Feito por Ramiro Téllez Matínez 👋 <a href="https://www.linkedin.com/in/ramirotellezm/" target="_blank">Entre em contato!</a>
+    <a href="https://www.linkedin.com/in/angelicavisciano/" target="_blank"><button "style="background-color:gold; color: silver">Angélica Visciano/button></a>
+    <a href="https://www.linkedin.com/in/betadamasoestudantesalesforce/" target="_blank"><button "style="background-color:gold; color: silver">Elizabete Damaso</button></a>
+    <a href="https://www.linkedin.com/in/elizemuller/" target="_blank"><button "style="background-color:gold; color: silver">Elize Müller</button></a>
+    <a href="https://www.linkedin.com/in/marcelojacomedelima/" target="_blank"><button "style="background-color:gold; color: silver">Marcelo Jácome</button></a>
+    <a href=""https://www.linkedin.com/in/ramirotellezm/" target="_blank"><button "style="background-color:gold; color: silver">Ramiro Téllez Matínez</button></a>
 </h4>
 
 [vc]: https://code.visualstudio.com/
