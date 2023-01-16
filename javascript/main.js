@@ -39,3 +39,4 @@ function iniciarModal(ModalId){
 //iniciarModal('SobreFade');
 const SobreBotao = document.querySelector(".SobreBotao");
 SobreBotao.addEventListener('click', () => iniciarModal('SobreFade'));
+

@@ -311,7 +311,7 @@ font-size: 4rem;
   align-items: center;
   justify-content: center;
   align-items: center;
-  background-color:silver;
+  background-color:rgba(255, 255, 255, 0.692);
   font-family: var(--font-header);
   font-size: 1.2rem;
   color: var(--bg-color-secondary);
@@ -332,8 +332,9 @@ font-size: 4rem;
   text-align: center;
   padding:8rem 0 0.5rem 0;
   color:var(--bg-color-secondary);
-  font-weight:bold;
+  font-weight: 900;
   font-size: 3rem;
+  
  }
   .servicos p{
     text-align: center;
@@ -379,9 +380,9 @@ font-size: 4rem;
  }
   .content-serv h3{
   text-align:center; 
-  font-style: normal;
-  font-weight: bold;
-  text-shadow: rgb(255, 255, 255) 0.1rem -0.1rem 0.1rem;
+  font-family: var(--font-header);
+  font-weight: 900;
+  text-shadow: rgb(131, 128, 128) 0.1rem 0.1rem 0.2rem;
   padding: 1rem 0; 
   font-size: 1.7rem;
   margin:0;
@@ -415,7 +416,7 @@ font-size: 4rem;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-
+  color: var(--text-color);
   width: 100%;
   height: 100vh;
   display: flex;
@@ -511,6 +512,7 @@ font-size: 4rem;
   justify-content: center;
   border: 10px solid #FFC85A;
   box-shadow: 0 0 0 10px #1f3652;
+  color: var(--text-color);
 }
 
 
