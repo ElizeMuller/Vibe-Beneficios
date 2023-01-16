@@ -78,7 +78,7 @@ $ cd HTML2
     <p><a href="https://www.linkedin.com/in/betadamasoestudantesalesforce/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Elizabete%20Damaso-gray"></a></p>
     <p><a href="https://www.linkedin.com/in/elizemuller/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Elize%20Müller-gray"></a></p>
     <p><a href="https://www.linkedin.com/in/marcelojacomedelima/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Marcelo%20Jácome-gray"></a></p>
-    <p><a href="https://www.linkedin.com/in/ramirotellezm/" target="_blank" text-decoration="none"><img alt="Developer" ssrc="https://img.shields.io/badge/Made%20by-Ramiro%20Téllez-gray%20Martínez"></a></p>
+    <p><a href="https://www.linkedin.com/in/ramirotellezm/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Ramiro%20Téllez-gray%20Martínez"></a></p>
 
 
 [vc]: https://code.visualstudio.com/
