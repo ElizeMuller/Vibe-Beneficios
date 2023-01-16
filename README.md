@@ -26,7 +26,7 @@
 <h4 align="center">
   <p>Projeto Final do BootCamp em Salesforce da SoulCode</p>
   
-  <p>Desenvolvido como projeto final pelos estudantes da turma BC28 - SF7 da SoulCode.</p>
+  <p>Desenvolvido pelos estudantes da turma BC28 - SF7 da SoulCode.</p>
   <p><img alt="Developer" src="https://img.shields.io/badge/Desenvolvedores-gray?style=for-the-badge&logo=appveyor"></p>
   
   <p>Anna Nunes</p>
