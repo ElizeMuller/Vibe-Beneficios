@@ -51,8 +51,8 @@
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
 -  [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
--  [JavaScript] (https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
--  [CSS] (https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+-  [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+-  [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 -  [VS Code][vc]
 
 ## :eyes: Confira
