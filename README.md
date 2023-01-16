@@ -28,14 +28,13 @@
   
   <p>Desenvolvido como projeto final pelos estudantes da turma BC28 - SF7 da SoulCode. 
   Desenvolvedores: </p>
-  <ul>
-  <li>Anna Nunes/li>
-  <li>Angélica Visciano</li>
-  <li>Elizabete Damaso</li>
-  <li>Elize Müller</li>
-  <li>Marcelo Jácome</li>
-  <li>Ramiro Téllez Matínez</li>
-  </ul>
+  
+  <p>Anna Nunes
+  <p>Angélica Visciano</p>
+  <p>Elizabete Damaso</p>
+  <p>Elize Müller</p>
+  <p>Marcelo Jácome</p>
+  <p>Ramiro Téllez Matínez</p>
 
   <p>
   Agradecemos aos nossos professores e orientadores de Bootcamp, Filipe Santana, Lorena Meireles, Renan Mussato, pelo conhecimento compartilhado conosco.
