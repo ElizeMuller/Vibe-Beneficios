@@ -15,8 +15,8 @@
   <img alt="Languages" src="https://img.shields.io/badge/Language-3-orange">
   
   <img alt="Top Language" src="https://img.shields.io/badge/HTML-58.6%25-orange">
-  <img alt="Top Language" src="https://img.shields.io/badge/CSS-38.6%25-orange">
-  <img alt="Top Language" src="https://img.shields.io/badge/JS-2.8%25-orange">
+  <img alt="Top Language" src="https://img.shields.io/badge/CSS-38.6%25-purple">
+  <img alt="Top Language" src="https://img.shields.io/badge/JS-2.8%25-yellow">
 
   
   <img alt="Repo Size" src="https://img.shields.io/badge/Repo%20Size-0.86mb-orange">
