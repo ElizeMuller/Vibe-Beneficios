@@ -78,7 +78,7 @@ $ cd HTML2
     <p align="center" padding="1rem"><a href="https://www.linkedin.com/in/betadamasoestudantesalesforce/" target="_blank" text-decoration="none" ><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Elizabete%20Damaso-blue" height="25px" margin="0.5rem"></a>
     <a href="https://www.linkedin.com/in/elizemuller/" target="_blank" text-decoration="none"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Elize%20Müller-blue" height="25px" margin="0.5rem"></a></p>
     <p align="center" padding="1rem"><a href="https://www.linkedin.com/in/marcelojacomedelima/" target="_blank" text-decoration="none" ><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Marcelo%20Jácome-blue" height="25px" margin="0.5rem"></a>
-    <a href="https://www.linkedin.com/in/ramirotellezm/" target="_blank" text-decoration="none" ><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Ramiro%20Téllez%20Martínez-blue" height="25px" margin="0.5rem"></a></p>
+    <a href="https://www.linkedin.com/in/ramirotellezm/" target="_blank" text-decoration="none" ><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Ramiro%20Téllez-blue" height="25px" margin="0.5rem"></a></p>
 
 
 [vc]: https://code.visualstudio.com/
