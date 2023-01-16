@@ -31,7 +31,7 @@ function iniciarModal(ModalId){
   fade.classList.add('mod');
   modal.classList.add('mod');
   fade.addEventListener('click', (e) => {
-  if(e.target.id == ModalId){
+  if(e.target.id == ModalId || e.target.id  == 'fecharModal'){
     fade.classList.remove('mod')
   }
   });
