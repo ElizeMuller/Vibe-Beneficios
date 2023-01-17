@@ -261,18 +261,18 @@ footer {
 /* banner */
 .banner{
   width:100%;
-  height: 725px;
+  height: 825px;
   Top:2rem;
   background-color: rgb(0, 0, 0);
   z-index: 4;
 
 }
 .banner img{
+  top:1rem;
   width:100%;
   height: 100%;
   object-fit: cover;
   opacity: 0.27;
-  
   image-resolution: auto;
   display:flex;
   position: absolute !important;
@@ -282,7 +282,7 @@ z-index: 1;
 .banner-content{
   display: block;
   position: absolute;
-  top: 29rem;
+  top: 27rem;
   left:17rem;
   align-items: center;
   text-align: center;
@@ -297,6 +297,20 @@ z-index: 1;
   font-size: 2rem;
 
 }
+.banner-content a{
+  color:var(--text-header);
+  text-decoration:underline solid;
+  padding:0.2rem;
+  
+}
+
+.banner-content a:hover{
+  color:var(--contraste-color);
+  text-decoration:underline solid;
+  padding:0.2rem;
+
+}
+
 .banner-content p{
 font-size: 4rem;
 
@@ -311,26 +325,29 @@ font-size: 4rem;
   align-items: center;
   justify-content: center;
   align-items: center;
-  background-color:rgba(255, 255, 255, 0.692);
   font-family: var(--font-header);
   font-size: 1.2rem;
   color: var(--bg-color-secondary);
   text-decoration:none;
+  
   
  }
  .servicos{
   display: flexbox;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 4rem 0rem 2rem 1.5rem ;
+  padding: 4rem 0rem 0rem 1.5rem ;
   align-items: center;
   justify-content: center;
   align-items: center;
+  position: relative;
+  max-height:800px;
+  background-image: linear-gradient(#a7a4a4 70%,#1f3652c4 100%);
 
  }
  .servicos h1{
   text-align: center;
-  padding:8rem 0 0.5rem 0;
+  padding:6rem 0 0.5rem 0;
   color:var(--bg-color-secondary);
   font-weight: 900;
   font-size: 3rem;
@@ -353,6 +370,7 @@ font-size: 4rem;
   align-content: center;
   column-gap: 3rem;
   text-align: center;
+  max-height: 500px;
 
  }
  .content-serv{
@@ -393,14 +411,16 @@ font-size: 4rem;
   .content-serv p{
     text-align:center;
     padding: 2rem;
-    margin: 0 1rem 0 0.5rem;
     justify-items: auto;
     font-weight: 300;
     font-size: 1.3rem;
     font-family: var(--font-footer);
   }
-/* .cards-grid{} */
-/* .card-01 .servicos{} */
+/* .cards-total{} */
+.card-01 {
+  margin:0;
+  padding: 0;
+} 
 
 
  /* FIM SERVIÇOS */
@@ -560,8 +580,7 @@ font-size: 4rem;
 /* TIPOS DE CARTÕES */
 .type-cards{
   max-width:100%;
-  margin: 1rem 0;
-  padding: 1rem 2rem;
+  padding: 1rem 2.35rem;
   background-image:linear-gradient( var(--bg-color-secondary) 32%, #7d7d7d 80%, var(--text-color) 100%);
   text-align: left;
   align-items: left;
@@ -570,7 +589,9 @@ font-size: 4rem;
 }
 .cardvip{
   display:grid;
+  color: var(--text-color);
   position: relative;
+  text-shadow: #000 0.1rem 0.1rem 0.2rem;
   padding: 0.5rem 0.2rem 0.5rem 0.2rem;
   margin:2.5rem 0 2rem 4rem;
   width: 90%;
@@ -585,6 +606,8 @@ font-size: 4rem;
 .cardpremium{
   display:grid;
   position: relative;
+  color: var(--text-color);
+  text-shadow: #000 0.1rem 0.1rem 0.2rem;
   padding: 0.5rem 0.2rem 0.5rem 0.2rem;
   margin:2.5rem 0 2rem 4rem;
   width: 90%;
@@ -599,6 +622,8 @@ font-size: 4rem;
 .cardplatinum{
   display:grid;
   position: relative;
+  color: var(--text-color);
+  text-shadow: #000 0.1rem 0.1rem 0.2rem;
   padding: 0.5rem 0.2rem 0.5rem 0.2rem;
   margin:2.5rem 0 2rem 4rem;
   width: 90%;
