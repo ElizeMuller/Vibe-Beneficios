@@ -512,12 +512,22 @@ font-size: 4rem;
 .SobreFade{
   position: fixed;
   display: none;
-  margin: 0;
-  padding: 0;
+  top: 0;
+  left: 0;
   background-color: #000000b4;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   z-index: 10000;
+}
+
+.fecharModal{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 0px;
+  background-color: #1f3652;
+  color: #FFC85A;
 }
 
 .SobreModal{
@@ -796,9 +806,9 @@ box-shadow: bottom(--text-header);
 .CadastroContainer{
   position: relative;
   width: 70%;
-  height: 85vh;
+  height: 90vh;
   display: flex;
-  /*Esses dois ultimos é pra deixar o cadaswtro no centro da tela
+  /*Esses dois ultimos é pra deixar o cadastro no centro da tela
     caso fique torto pra você Ellize sitasse livre pra alterar */
   margin-top: 4%;
   left: 14%;
@@ -852,6 +862,10 @@ box-shadow: bottom(--text-header);
   flex-direction: column;
   margin-bottom: 0.7rem;
   color: black;
+}
+
+.Pais{
+  display: none;
 }
 
 .InputBox input:hover {
