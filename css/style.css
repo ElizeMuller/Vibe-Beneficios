@@ -713,9 +713,9 @@ box-shadow: bottom(--text-header);
 .CadastroContainer{
   position: relative;
   width: 70%;
-  height: 85vh;
+  height: 90vh;
   display: flex;
-  /*Esses dois ultimos é pra deixar o cadaswtro no centro da tela
+  /*Esses dois ultimos é pra deixar o cadastro no centro da tela
     caso fique torto pra você Ellize sitasse livre pra alterar */
   margin-top: 4%;
   left: 14%;
@@ -769,6 +769,10 @@ box-shadow: bottom(--text-header);
   flex-direction: column;
   margin-bottom: 0.7rem;
   color: black;
+}
+
+.Pais{
+  display: none;
 }
 
 .InputBox input:hover {
