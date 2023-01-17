@@ -1,22 +1,24 @@
-fetch("./pages/header.html")
-  .then(response => {
-    return response.text()
-  })
-  .then(data => {
-    document.querySelector("header").innerHTML = data;
-  }).catch(error => {
-    console.log(error)
-    });
+// retirar comentários ao abdicar do formato de landing page! Também retirar das páginas de header e de footer.
 
-fetch("./pages/footer.html")
-  .then(response => {
-    return response.text()
-  })
-  .then(data => {
-    document.querySelector("footer").innerHTML = data;
-  }).catch(error => {
-    console.log(error)
-    });
+// fetch("../pages/header.html")
+//   .then(response => {
+//     return response.text()
+//   })
+//   .then(data => {
+//     document.querySelector("header").innerHTML = data;
+//   }).catch(error => {
+//     console.log(error)
+//     });
+
+// fetch("../pages/footer.html")
+//   .then(response => {
+//     return response.text()
+//   })
+//   .then(data => {
+//     document.querySelector("footer").innerHTML = data;
+//   }).catch(error => {
+//     console.log(error)
+//     });
 
 // dropdown menu
 function dropdownMenu() {
