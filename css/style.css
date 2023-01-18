@@ -940,10 +940,35 @@ font-size: 4rem;
 
 /*Agradecimentos*/
 .agradecimentosCorpo{
-  height: 100vh;
-  width: 100vw;
+  height: 48rem;
+  width: 100%;
+  image-resolution: 100%;
+  image-rendering: optimizeQuality;
+  position:absolute;  
+}
+.btnAgradecimentos{
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 1rem;
+  font-family: var(--font-footer);
+  width: 5rem;
+  height: 3rem;
+  background-color: #70A7B3;
+  color:white;
+  border-radius: 1rem;
+  left: 2rem;
+  top: 2rem;
 }
 
+.btnAgradecimentos:hover{
+  background-color: var(--bg-color-secondary);
+  color: var(--text-header);
+}
 /* responsividade */
 @media screen and (max-width: 375px) {
   .header-brand-logo {
