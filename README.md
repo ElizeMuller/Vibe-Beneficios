@@ -74,12 +74,12 @@ $ cd HTML2
 ```
 
 <h4 align="center" id="contato"> Entre em contato conosco!</h4>
-    <p align="center" padding="1rem"><a href="https://www.linkedin.com/in/anna-karoliny-devsalesforce/" target="_blank" text-decoration="none" rel="external"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Anna%20Nunes-blue" height="25px" margin="0.5rem"></a>
-    <a href="https://www.linkedin.com/in/angelicavisciano/" target="_blank" text-decoration="none" rel="external"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Angélica%20Visciano-blue" height="25px" margin="0.5rem"></a>
-    <p align="center" padding="1rem"><a href="https://www.linkedin.com/in/betadamasoestudantesalesforce/" target="_blank" text-decoration="none" rel="external" ><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Elizabete%20Damaso-blue" height="25px" margin="0.5rem"></a>
-    <a href="https://www.linkedin.com/in/elizemuller/" target="_blank" text-decoration="none" rel="external"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Elize%20Müller-blue" height="25px" margin="0.5rem"></a></p>
-    <p align="center" padding="1rem"><a href="https://www.linkedin.com/in/marcelojacomedelima/" target="_blank" text-decoration="none" rel="external" ><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Marcelo%20Jácome-blue" height="25px" margin="0.5rem"></a>
-    <a href="https://www.linkedin.com/in/ramirotellezm/" target="_blank" text-decoration="none" rel="external" ><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Ramiro%20Téllez-blue" height="25px" margin="0.5rem"></a></p>
+    <p align="center" padding="1rem"><a href="https://www.linkedin.com/in/anna-karoliny-devsalesforce/" target="_blank" text-decoration="none" rel="noreferrer noopener"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Anna%20Nunes-blue" height="25px" margin="0.5rem"></a>
+    <a href="https://www.linkedin.com/in/angelicavisciano/" target="_blank" text-decoration="none" rel="noreferrer noopener"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Angélica%20Visciano-blue" height="25px" margin="0.5rem"></a>
+    <p align="center" padding="1rem"><a href="https://www.linkedin.com/in/betadamasoestudantesalesforce/" target="_blank" text-decoration="none" rel="noreferrer noopener"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Elizabete%20Damaso-blue" height="25px" margin="0.5rem"></a>
+    <a href="https://www.linkedin.com/in/elizemuller/" target="_blank" text-decoration="none" rel="noreferrer noopener"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Elize%20Müller-blue" height="25px" margin="0.5rem"></a></p>
+    <p align="center" padding="1rem"><a href="https://www.linkedin.com/in/marcelojacomedelima/" target="_blank" text-decoration="none" rel="noreferrer noopener"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Marcelo%20Jácome-blue" height="25px" margin="0.5rem"></a>
+    <a href="https://www.linkedin.com/in/ramirotellezm/" target="_blank" text-decoration="none" rel="noreferrer noopener"><img alt="Developer" src="https://img.shields.io/badge/Made%20by-Ramiro%20Téllez-blue" height="25px" margin="0.5rem"></a></p>
 
 
 [vc]: https://code.visualstudio.com/
