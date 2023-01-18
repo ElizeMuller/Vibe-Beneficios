@@ -390,16 +390,11 @@ font-size: 4rem;
  }
  
  .content-serv i{
-  font-size: 5rem;
+  font-size: 6rem;
   color: var(--text-color);
   border-radius: 50%;
   background-color: var(--bg-color-secondary);
-  border: var(--text-color) 0.5px solid;
-  text-decoration:none;
   text-align: center;
-  align-items: center;
-  justify-content: center;
-  align-items: center;
   padding: 2rem ;
 
   
@@ -423,6 +418,7 @@ font-size: 4rem;
     font-weight: 300;
     font-size: 1.3rem;
     font-family: var(--font-footer);
+    font-style:normal;
   }
 /* .cards-total{} */
 .card-01 {
@@ -437,9 +433,9 @@ font-size: 4rem;
 /* CARTÕES */
 .type-cards{
   width:100%;
-  max-width:100%;
   padding: 1rem 1rem 10rem 1rem;
-  background-color:rgb(236, 236, 236);
+  /* background-color:rgb(236, 236, 236); */
+  background-color:rgb(248, 248, 248);
   text-align: left;
   align-items: left;
   align-content: space-between;
@@ -465,16 +461,8 @@ font-size: 4rem;
     
  }
 
-/* .cardvip:hover{
-box-shadow: bottom(--text-header);
-}
-.cardpremium:hover{
-
-}
-.cardplatinum:hover{
-
-} */
 .card__content{
+  left: 5%;
   display:inline-block;
   position:relative;
   width: 95%;
@@ -519,7 +507,7 @@ box-shadow: bottom(--text-header);
   /* background-color: #0b3569; */
 }
 .cardpremium .card__content{
-  margin: 2.5rem 15rem 0 1rem;
+  margin: 2.5rem 0 0 1rem;
   color:rgb(0, 0, 0);
 
 }
@@ -551,7 +539,7 @@ box-shadow: bottom(--text-header);
   grid-template-columns: 2fr 2fr;
 }
 .cardvip .card__content{
-  margin: 2.5rem 0 0 2rem;
+  margin: 2.5rem 0 0 0;
   color: var(--text-color-black);
 
   
@@ -583,7 +571,7 @@ box-shadow: bottom(--text-header);
 
 }
 .cardplatinum .card__content{
-  margin: 1.5rem 2rem 0 2.5rem;
+  margin: 1.5rem 2rem 0 0;
   color:#000000;
   
 }
@@ -653,7 +641,7 @@ box-shadow: bottom(--text-header);
   font-family: sans-serif;
   color: var(--text-color);
   width: 100%;
-  height: 700px;
+  height: 600px;
   /* align-items: center;
   justify-content: center;
   align-items: center; */
@@ -668,21 +656,13 @@ box-shadow: bottom(--text-header);
 
 .ImagemEmpresa{
   position:relative;
-  width:40rem;
+  width:50rem;
   height:100%;  
   display: flex;
   border-radius: 0;
   box-shadow: 0, 0, 10px, 10px rgb(0,0,0, .222);
 }
-/* .ImagemEmpresa img{
-  position: relative;
-  height: 100%;
-  width:32rem;
-  display: flex;
-  border-radius: 0;
-  margin-left: 5%;
-  box-shadow: 0, 0, 10px, 10px rgb(0,0,0, .222);
-} */
+
 
 
 .TituloEmpresa{
@@ -700,7 +680,7 @@ box-shadow: bottom(--text-header);
   position: relative;
   width: 100%;
   top: 8%;
-  padding: 12%;
+  padding: 6% 12%;
   font-size: large;
   text-align: left;
   word-break: keep-all;
@@ -718,7 +698,8 @@ box-shadow: bottom(--text-header);
   justify-content: center;
   text-align: center;  
   position: relative;
-  left: 12%;
+  left: 40%;
+  top: 5%;
   bottom: 2.5%;
   background-color: #fff;
   color: black;
@@ -974,7 +955,6 @@ box-shadow: bottom(--text-header);
   }
 }
 @media screen and (max-width: 600px) {
-  .header-login,
   .header-navbar {
     display: none;
   }
@@ -1028,4 +1008,73 @@ box-shadow: bottom(--text-header);
       width: 80%;
   }
 }
+@media screen and (max-width: 1481px) {
+  .banner{
+    width:100%;
+    display: flexbox;
+    height:00px;
+    Top:0rem;
+    background-color: rgb(0, 0, 0);
+    z-index: 4;
+  
+  }
+  .banner img{
+    top:5rem;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.27;
+    image-resolution: auto;
+    display:flex;
+    position: absolute !important;
+  z-index: 1;
+  
+  }
+}
+@media screen and (min-width: 1864px) {
+  .banner{
+    width:100%;
+    height:1035px;
+    Top:2rem;
+    background-color: rgb(0, 0, 0);
+    z-index: 4;
+  
+  }
+  .banner img{
+    top:5rem;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.27;
+    image-resolution: auto;
+    display:flex;
+    position: absolute !important;
+  z-index: 1;
+  
+  }
+  .banner-content{
+    display: block;
+    position: absolute;
+    top: 27rem;
+    left:17rem;
+    align-items: center;
+    text-align: center;
+    color:#FFC85A;
+    z-index:10;
+    font-family: var(--font-header);
+    text-shadow: -0.2rem 0.2rem 0.2rem #000;
+    text-decoration:dotted;
 
+  
+  }
+ 
+ 
+  .header-brand-logo img {
+    width: 6rem;
+  }
+  .content-serv i{
+    padding: 3rem ;
+  
+    
+   }
+}
