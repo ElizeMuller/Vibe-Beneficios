@@ -5,11 +5,11 @@
   --max-width: 1600px;
   --bg-color: silver;
   --bg-color-secondary: #1f3652;
-  --bg-color-secondary-light: hsl(225, 8%, 60%);
+  --bg-color-secondary-light: #9195a1;
   --text-color: #fff;
   --text-header: #FFC85A;
   --text-color-dark: #b3b3b3;
-  --text-color-black: hsl(0, 0%, 0%);
+  --text-color-black: #000000;
   --contraste-color: #70A7B3;
   --font-normal: "Barlow", sans-serif;
   --font-logo: "Libre Baskerville", serif;
@@ -596,7 +596,7 @@ font-size: 4rem;
 .type-cards{
   width:100%;
   max-width:100%;
-  padding: 1rem 0rem;
+  padding: 1rem 1rem;
   background-color:rgb(236, 236, 236);
   text-align: left;
   align-items: left;
@@ -631,10 +631,10 @@ box-shadow: bottom(--text-header);
 
 } */
 .card__content{
-  display:flexbox;
+  display:inline-block;
   position:relative;
-  width: 85%;
-  padding:0.5rem 1.5rem;
+  width: 95%;
+  padding:0.5rem 1rem;
   text-align: left;
   text-justify:distribute;
   word-spacing: 0.5rem;
@@ -648,19 +648,20 @@ box-shadow: bottom(--text-header);
   
   
 }
-/* .card_img {
-  width: 100%;
-  
-} */
-.card_img img{
-  width: 100%;
+.card_img{
+  display: flex;
+  height: 100%;
   padding: 0.5rem;
+  margin: 0 1rem 0 1rem;
   border-radius: 2rem;
   
-
+}
+.card_img img{
+  max-width: 98%;
+  max-height:386.55px;
+  
 }
 
-  
 .card_img img:hover{
   box-shadow: var(--text-header) 0px 0px 10px 5px;
   border: var(--text-header) 0.5px solid;
@@ -671,27 +672,32 @@ box-shadow: bottom(--text-header);
   display:grid;
   position: relative;
   color: var(--bg-color-secondary);
-  padding: 2rem 2rem 0.5rem 0.2rem;
-  margin:0 0 0 0rem;
+  padding: 2rem 0.5rem 0.5rem 0.5rem;
+  margin:0 0 2rem 0;
   width: 100%;
   grid-template-columns: 2fr 2fr;
   /* background-color: #0b3569; */
 }
 .cardpremium .card__content{
-  margin: 2.5rem 0 0 1rem;
-  /* background-color:rgba(11, 53, 105, 0.904); */
+  margin: 2.5rem 15rem 0 1rem;
   color:rgb(0, 0, 0);
 
 }
+
+
 .cardpremium img{
-  margin: 2rem 1rem 2rem 0rem; 
   position:relative;
-  display: block;
   align-items: center;
   align-content: center;
   background-color:#0b3569f3;
   border-color: #50a0b2ef 0px 0px 25px 5px solid;
   box-shadow: #50a0b2ef 0px 0px 25px 5px;
+  border-radius: 2rem;
+  position:relative;
+  display:flex;
+  margin: 0 0rem 0 2rem;
+
+
 
 }
 /* VIP */
@@ -699,63 +705,70 @@ box-shadow: bottom(--text-header);
   display:grid;
   color: var(--bg-color-secondary);
   position: relative;
-  padding: 2rem 3rem 0.5rem 0.2rem;
-  margin:2.5rem 0 0rem 0rem;
+  padding: 2rem 0.5rem 0.5rem 0.5rem;
+  margin:0 0 2rem 0;
   width: 100%;
   grid-template-columns: 2fr 2fr;
-  /* background-color: #50a0b2ef; */
 }
 .cardvip .card__content{
-  margin: 2.5rem 1rem 0 6rem;
-  /* background-color:rgba(81, 161, 179, 0.568); */
+  margin: 2.5rem 0 0 2rem;
   color: var(--text-color-black);
 
   
 }
+
 .cardvip img{
-  margin: 2rem 4rem 2rem 2rem; 
   align-items: center;
   align-content: center;
   background-color:#50a0b2ef;
   border-color:#000000f1 0px 0px 25px 5px solid;
   box-shadow: #000000f1 0px 0px 25px 5px;
+  border-radius: 2rem;
+  position:relative;
+  display:flex;
+    
+  
+  
+
 }
 /* PLATINUM */
 .cardplatinum{
   display:grid;
   position: relative;
   color: var(--bg-color-secondary);
-  padding: 2rem 2rem 0.5rem 0.2rem;
-  margin:0rem 0 2rem 0rem;
+  padding: 2rem 0.5rem 0.5rem 0.5rem;
+  margin:0 0 2rem 0;
   width: 100%;
   grid-template-columns: 2fr 2fr;
-  /* background-color:#252525f1; */
 
 }
 .cardplatinum .card__content{
-  margin: 1.5rem 0 0 6rem;
-  color:#000000
+  margin: 1.5rem 2rem 0 2.5rem;
+  color:#000000;
   
 }
 .cardplatinum .card__content .card__description{
-  color:#000000
+  color:#000000;
   
 }
+
 .cardplatinum img{
-  margin: 2rem 4rem 2rem 2rem; 
   align-items: center;
   align-content: center;
   background-color:#252525f1;
   border-color:#0b3569 0px 0px 25px 5px solid;
   box-shadow: #0b3569 0px 0px 25px 5px;
+  border-radius: 2rem;
+  position:relative;
+  display:flex;
+
 
 }
 .card__title{
-  padding: 0.0rem 0rem;
+  padding: 0;
   font-family: var(--font-header);
   font-size: 3rem;
   font-weight: 990;
-  /* color:rgb(255, 209, 2); */
   color: gold;
   text-align: center;
   text-shadow: rgba(14, 14, 15, 0.849) 2px 3px 2px;
