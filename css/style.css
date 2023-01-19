@@ -2,6 +2,8 @@
 /* ROOT */
 :root {
   --ideal-viewport-width: 1600;
+  --iphone-viewport-width: 375;
+  --ipad-viewport-width: 768;
   --max-width: 1600px;
   --bg-color: silver;
   --bg-color-secondary: #1f3652;
@@ -968,36 +970,281 @@ font-size: 4rem;
 }
 /* responsividade */
 @media screen and (max-width: 375px) {
+  html {
+    width: 375px;
+    font-size: calc(
+      16 * clamp(0.7px, 100vw / var(--iphone-viewport-width), 1.3px)
+    );
+    height: 100%;
+    
+  }
+  .header-brand-logo {
+    flex: 0 0 50%;
+  }
+  .header-dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 0 0 50%;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    flex-wrap: wrap;
+  }
+  .active {
+    display: block;
+  }
   .banner {
     justify-content: center;
     width: 100%;
-    height: 8rem;
+    height: 10rem;
     top:0;
     z-index:4;
 
   }
   .banner img{
     width: 100%;
-    height: 10rem;
+    height: 100px;
     
 
   }
   .banner-content {
-   bottom: 2rem;
+    text-align: center;
     margin: 0;
-    top:5rem;
     left:5rem;
-    
-
-    
+    top: 10rem;
+    width: 100%;
+    height: 100%;
+    line-break: normal;
+    align-items: left;
+    align-content: left;
+    align-self: left;
+    padding:0;
   }
   .banner-content p {
     max-width: 100%;
     text-align: left;
   }
 
+  .go-to-top {
+    display: inherit;
+    right: 0.5rem;
+    bottom: 10%;
+  }
+  .container-body{
+    max-width: 600px;
+    width:100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    align-content: left;
+    padding: 0 0 1rem 0;
+    margin: 0;
+
+  }
+  .servicos{
+    display: block;
+    width: 600px;
+    height: 100%;
+    position:relative;
+    padding: 1rem 0 2rem 0;
+    margin:0;
+
+  }
+  .servicos h1{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position:relative;
+    padding: 1rem 0 1rem 0;
+    margin:0;
+
+  }
+  .servicos p{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position:relative;
+    padding: 1rem 0 1rem 0;
+    margin:0;
+
+  }
+  .contents-serv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height:100%;
+    column-gap:0;
+    position:relative;
+    padding: 0 0 2rem 0;
+  }
+  .content-serv{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 0.1rem;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+
+
+  }
+  .content-serv i{
+    width:25%;
+    height:70%;
+    font-size: 6rem;
+    color: var(--text-color);
+    border-radius:50%;
+    background-color: var(--bg-color-secondary);
+    border: var(--text-color) 0.5px solid;
+    text-decoration:none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding:2rem ;
+    position:relative;
 
   
+    
+   }
+    .content-serv h3{
+    text-align:center; 
+    font-family: var(--font-header);
+    font-weight: 900;
+    text-shadow: rgb(131, 128, 128) 0.1rem 0.1rem 0.2rem;
+    padding: 0; 
+    font-size: 1.7rem;
+    margin:0;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+
+    }
+    .content-serv p{
+      text-align:center;
+      padding:1rem 4rem 1rem 4rem;
+      justify-items: auto;
+      font-weight: 300;
+      font-size: 1.35rem;
+      font-family: var(--font-footer);
+      position:relative;
+    }
+  .CorpoEmpresa{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 0 3rem 0;
+    margin:0;
+  }
+  .ImagemEmpresa{
+    display: block;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    padding:0;
+    margin:0;
+  }
+  .ImagemEmpresa img{
+    width: 100%;
+    height: 100%;
+  }
+  .CadastroCorpo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Formulario{
+    position: relative;
+    margin:0%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #70A7B3;
+    padding: 0;
+  }
+  .InputGroup{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10rem;
+    column-width: 1rem;
+    flex-wrap:wrap;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    
+  }
+  .card_img{
+    display: flex;
+    height: 100%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    position:relative;
+
+    
+  }
+  .card_img img{
+    position:relative;
+    max-width: 100%;
+    max-height:100%;
+    left: 2.1rem;
+    margin: 0 0 0.5rem 0;
+    
+  }
+  .cardvip{
+  display:flex;
+  position: relative;
+  flex-direction: column;
+  }
+  .cardvip img{
+    max-width: 90%;
+    max-height:100%;
+    margin: 0;
+  }
+  .cardpremium{
+    display:flex;
+    position: relative;
+    flex-direction: column-reverse;
+  }
+  .cardpremium img{
+    max-width: 90%;
+    max-height:100%;
+    margin: 0;
+  }
+  .cardplatinum{
+    display:flex;
+    position: relative;
+    flex-direction: column;
+  }
+  .cardplatinum img{
+    max-width: 90%;
+    max-height:100%;
+    margin: 0;
+  }
 
 }
 @media screen and (max-width: 600px) {
