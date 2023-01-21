@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Cambo&family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Libre+Baskerville&display=swap');
+
 /* ROOT */
 :root {
   --ideal-viewport-width: 1600;
@@ -29,7 +30,7 @@
 }
 /* HTML */
 html {
-  width: var(--ideal-viewport-width);
+  width: var(--ideal-viewport-width)px;
   font-size: calc(
     16 * clamp(0.7px, 100vw / var(--ideal-viewport-width), 1.3px)
   );
@@ -45,7 +46,6 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: var(--font-normal);
   min-height: 100%;
-  min-width: 100%;
 }
 
 button,
@@ -57,8 +57,7 @@ a {
 .container {
   width: 100%;
   max-width: var(--max-width);
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 0 5% 0 5%;
   margin: 0 auto;
   text-align: center;
   position: relative;
@@ -81,30 +80,20 @@ a {
 
 /* header */
 header {
-    padding: 0.5rem 0 0.5rem 0;
+    padding: 1% 0 1% 0;
     background-color: var(--bg-color-secondary);
     min-height: 20px;
-    max-height: 120px;
     color: var(--text-color);
-    font-size: 1.1rem;
-    overflow: hidden;
+    font-size: 120%;
     position: fixed !important;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-
+    z-index: 10;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
   }
 
     
-    
-  
-  
   .nav {
     display: grid;
     grid-template-columns: 1fr 2fr ;
-   
-    
   }
   
   .header-brand-logo {
@@ -115,17 +104,17 @@ header {
   .header-brand-logo a {
     display: inline-flex;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0 1%;
     color: var(--text-header);
     text-decoration: none;
     font-family:var(--font-header);
     font-style: italic;
-    font-size: 1.5rem;
+    font-size: 150%;
    
   }
   
   .header-brand-logo img {
-    width: 7rem;
+    width: 25%;
   }
   
   .header-navbar {
@@ -144,7 +133,7 @@ header {
   }
   
   .header-navbar a > i {
-    margin-right: 0.4em;
+    margin-right: 4%;
   }
   
   .header-navbar a:hover {
@@ -152,18 +141,20 @@ header {
   }
   .header-dropdown {
     display: none;
+
   }
   
   .dropdown-toggle {
     font-size: 2.2rem;
     background-color: transparent;
     border: none;
+    
   }
   
   .dropdown-menu {
     display: none;
     background-color: var(--bg-color-secondary);
-    z-index: 1;
+    z-index: 10;
     font-size: 16px;
     flex: 0 0 100%;
   }
@@ -171,11 +162,14 @@ header {
   .dropdown-menu a {
     display: block;
     margin: 0.5em 0;
+    padding: 0.5em 0;
+  
   }
   
   .dropdown-menu a:hover {
     color: var(--contraste-color);
   }
+
   /* FIM DO HEADER */
 
 /* footer */
@@ -262,7 +256,7 @@ footer {
 .banner{
   width:100%;
   height: 50rem;
-  display: flexbox;
+  display: flex;
   position: relative;
   top:2rem;
   background-color: rgb(0, 0, 0);
@@ -271,7 +265,7 @@ footer {
 }
 .banner img{
   display:flex;
-  position:absolute;
+  position:relative;
   width:100%;
   height:100%;
   object-fit: cover;
@@ -281,28 +275,33 @@ footer {
 
 }
 .banner-content{
-  display: block;
-  position: absolute;
-  top: 27rem;
-  left:17rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:90%;
+  height:100%;
+  z-index:9;
+  position:absolute;
+  left:5%;
+  align-content: center;
   align-items: center;
   text-align: center;
   color:#FFC85A;
-  z-index:10;
   font-family: var(--font-header);
   text-shadow: -0.2rem 0.2rem 0.2rem #000;
-  text-decoration:dotted;
+
 
 }
 .banner-content h1{
-  font-size: 2rem;
+  font-size: 4rem;
+  position:relative;
 
 }
 .banner-content a{
   color:var(--text-header);
   text-decoration:underline solid;
   padding:0.2rem;
-  
+
 }
 
 .banner-content a:hover{
@@ -313,7 +312,9 @@ footer {
 }
 
 .banner-content p{
-font-size: 4rem;
+font-size: 3rem;
+position:relative;
+
 
 }
 /* FIM BANNER */
@@ -339,7 +340,7 @@ font-size: 4rem;
   display: flexbox;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 3rem 0rem 1rem 1.5rem ;
+  padding: 5% 0 1% 2% ;
   align-items: center;
   justify-content: center;
   align-items: center;
@@ -350,16 +351,16 @@ font-size: 4rem;
  }
  .servicos h1{
   text-align: center;
-  padding:6rem 0 0.5rem 0;
+  padding:5% 0 1% 0;
   color:var(--bg-color-secondary);
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 300%;
   
  }
   .servicos p{
     text-align: center;
-    padding: 0 0 3rem 0;
-    font-size: 1.5rem;
+    padding: 0 0 3% 0;
+    font-size: 150%;
     font-family: var(--font-footer);
     color:var(--text-color-black);
     font-weight: 300;
@@ -371,11 +372,11 @@ font-size: 4rem;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  padding: 3rem 1rem 2rem 1rem;
+  padding: 6% 1% 2% 1%;
   align-items: center;
   justify-content: center;
   align-content: center;
-  column-gap: 3rem;
+  column-gap: 3%;
   text-align: center;
   max-height: 500px;
 
@@ -384,7 +385,7 @@ font-size: 4rem;
   width: 100%;
   height: 100%;
   position: relative;
-  padding: 1rem;
+  padding: 1%;
   display:block;
  }
  
@@ -394,7 +395,7 @@ font-size: 4rem;
   border-radius: 50%;
   background-color: var(--bg-color-secondary);
   text-align: center;
-  padding: 2rem ;
+  padding: 12% ;
 
   
  }
@@ -403,23 +404,25 @@ font-size: 4rem;
   font-family: var(--font-header);
   font-weight: 900;
   text-shadow: rgb(131, 128, 128) 0.1rem 0.1rem 0.2rem;
-  padding: 1rem 0; 
-  font-size: 1.7rem;
+  padding: 1% 0; 
+  font-size: 170%;
   margin:0;
   align-items: center;
   justify-content: center;
   align-items: center;
+  position:relative;
+
   }
   .content-serv p{
+    position:relative;
     text-align:center;
-    padding: 2rem;
+    padding: 3%;
     justify-items: auto;
     font-weight: 300;
-    font-size: 1.3rem;
+    font-size: 120%;
     font-family: var(--font-footer);
     font-style:normal;
   }
-/* .cards-total{} */
 .card-01 {
   margin:0;
   padding: 0;
@@ -431,9 +434,9 @@ font-size: 4rem;
 
 /* CARTÕES */
 .type-cards{
+  display:block;
   width:100%;
-  padding: 1rem 1rem 10rem 1rem;
-  /* background-color:rgb(236, 236, 236); */
+  padding: 1% 1% 10% 1%;
   background-color:rgb(248, 248, 248);
   text-align: left;
   align-items: left;
@@ -441,18 +444,18 @@ font-size: 4rem;
  
 }
 .card-title{
-  margin: 2rem 0 0 0;
+ position: relative;
   text-align: center;
-  padding:6rem 0 0.5rem 0;
+  padding:7% 0 1% 0;
   color:var(--bg-color-secondary);
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 300%;
   
  }
   .desc-title{
     text-align: center;
-    padding: 0 0 4.5rem 0;
-    font-size: 1.5rem;
+    padding: 0 0 5% 0;
+    font-size: 150%;
     font-family: var(--font-footer);
     color:var(--text-color-black);
     font-weight: 300;
@@ -468,8 +471,8 @@ font-size: 4rem;
   padding:0.5rem 1rem;
   text-align: left;
   text-justify:distribute;
-  word-spacing: 0.5rem;
-  letter-spacing: 0.1rem;
+  word-spacing: 1%;
+  letter-spacing: 1%;
   word-break:keep-all;
   line-break:strict;
   text-justify: inter-word;
@@ -477,15 +480,19 @@ font-size: 4rem;
 }
 .card_img{
   display: flex;
-  height: 100%;
-  padding: 0.5rem;
-  margin: 0 1rem 0 1rem;
+  position: relative;
+  height: 30rem;
+  padding: 0;
+  margin:0;
+  left: 1%;
+  right:1%;
   border-radius: 2rem;
   
 }
 .card_img img{
-  max-width: 98%;
-  max-height:386.55px;
+  width:95%;
+  height:100%;
+
   
 }
 
@@ -499,14 +506,13 @@ font-size: 4rem;
   display:grid;
   position: relative;
   color: var(--bg-color-secondary);
-  padding: 2rem 0.5rem 0.5rem 0.5rem;
-  margin:0 0 2rem 0;
+  padding: 2% 1% 1% 1%;
+  margin:0 0 2% 0;
   width: 100%;
   grid-template-columns: 2fr 2fr;
-  /* background-color: #0b3569; */
 }
 .cardpremium .card__content{
-  margin: 2.5rem 0 0 1rem;
+  margin: 3% 0 0 1%;
   color:rgb(0, 0, 0);
 
 }
@@ -522,7 +528,7 @@ font-size: 4rem;
   border-radius: 2rem;
   position:relative;
   display:flex;
-  margin: 0 0rem 0 2rem;
+  margin: 0 0rem 0 2%;
 
 
 
@@ -532,13 +538,13 @@ font-size: 4rem;
   display:grid;
   color: var(--bg-color-secondary);
   position: relative;
-  padding: 2rem 0.5rem 0.5rem 0.5rem;
-  margin:0 0 2rem 0;
+  padding: 2% 1% 1% 1%;
+  margin:0 0 2% 0;
   width: 100%;
   grid-template-columns: 2fr 2fr;
 }
 .cardvip .card__content{
-  margin: 2.5rem 0 0 0;
+  margin: 3% 0 0 1%;
   color: var(--text-color-black);
 
   
@@ -563,14 +569,14 @@ font-size: 4rem;
   display:grid;
   position: relative;
   color: var(--bg-color-secondary);
-  padding: 2rem 0.5rem 0.5rem 0.5rem;
-  margin:0 0 2rem 0;
+  padding: 2% 1% 1% 1%;
+  margin:0 0 2% 0;
   width: 100%;
   grid-template-columns: 2fr 2fr;
 
 }
 .cardplatinum .card__content{
-  margin: 1.5rem 2rem 0 0;
+  margin: 3% 0 0 1%;
   color:#000000;
   
 }
@@ -589,12 +595,11 @@ font-size: 4rem;
   position:relative;
   display:flex;
 
-
 }
 .card__title{
   padding: 0;
   font-family: var(--font-header);
-  font-size: 3rem;
+  font-size: 300%;
   font-weight: 990;
   color: gold;
   text-align: center;
@@ -604,29 +609,24 @@ font-size: 4rem;
 .card__description{
   font-family: var(--font-footer);
   font-style: italic;
-  font-size: 1.3rem;
+  font-size: 130%;
   opacity: 0.6;
   text-align: center;
   font-weight: 600;
 }
-/* .card__benefits{
-  
-} */
+
 .card__list{
   font-family: var(--font-normal);
   word-break: retain-all;
-  padding:1rem;
-  word-spacing: 0.2rem;
-  letter-spacing: 0.11rem;
-  font-size: 1.3rem;
+  padding:1%;
+  word-spacing: 20%;
+  letter-spacing: 11%;
+  font-size: 130%;
   font-weight: 500;
-  line-height: 1.5rem;
+  line-height: 130%;
   line-break: strict;
 
 }
-/* .card__item{}*/
-
-
 /* FIM CARTÕES */
 
 
@@ -634,16 +634,12 @@ font-size: 4rem;
 
 .CorpoEmpresa{
   display: flex;
-  /* position:relative; */
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
   color: var(--text-color);
   width: 100%;
   height: 600px;
-  /* align-items: center;
-  justify-content: center;
-  align-items: center; */
   background-color:#7d7d7d;
 }
 
@@ -665,7 +661,6 @@ font-size: 4rem;
 
 
 .TituloEmpresa{
-  /*color: black;*/
   position: relative;
   padding-bottom: 1rem;
   font-weight: 700;
@@ -758,20 +753,6 @@ font-size: 4rem;
 }
 
 
-/*.ModalImagem{
-  position: relative;
-  /*display: flex;
-  margin: 1.7rem;
-  left: 5%;
-  
-}
-
-.ModalImagem img{
-  position: relative;
-  width: 15rem;
-  border-radius: 100%;
-}*/
-
 .SobreTitulo{
   position: relative;
   align-items: center;
@@ -782,8 +763,6 @@ font-size: 4rem;
   width: 400px;
   left: 40%;
   top:1%;
-
-  /*text-decoration: underline;*/
 }
 
 .ModalTexto{
@@ -825,15 +804,13 @@ font-size: 4rem;
   width: 100%;
   height: 100%;
   display: flex;
-  /*Esses dois ultimos é pra deixar o cadastro no centro da tela
-    caso fique torto pra você Ellize sitasse livre pra alterar */
   margin-top: 0%;
   left: 2%;
 }
 
 .FormularioImagem{
-  /* width: 100%; */
   display: flex;
+  width: 45%;
   align-content: left;
   align-items: left;
   justify-content: left;
@@ -842,22 +819,23 @@ font-size: 4rem;
 }
 
 .FormularioImagem img{
-  width: 35rem;
+  width: 100%;
   height: 100%;
+  display:flex;
 }
 
 .Formulario{
   position: relative;
   width: 100%;
-  margin-left:25%;
   height: 100%;
   display: flex;
+  left: 25%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
   background-color: #70A7B3;
-  padding: 0 4rem;
+  padding: 1rem;
   
  
   
@@ -865,6 +843,7 @@ font-size: 4rem;
 
 .CadastroTitulo{
   display: block;
+  position:relative;
   top:1%;
   font-family: var(--font-footer);
   font-size: 2.2rem;
@@ -872,7 +851,7 @@ font-size: 4rem;
   text-shadow: 0.1rem 0.1rem 0.2rem rgb(255, 255, 255);
   color: var(--bg-color-secondary);
   content: '';
-  margin: 2rem 0 2rem 0;
+  margin: 2rem 0 5rem 0;
   height: 0.3;
   justify-content: space-between;
 }
@@ -888,7 +867,7 @@ font-size: 4rem;
   align-content: center;
   justify-content: space-between;
   padding: 1rem 0;
-  
+  position:relative;
   
 }
 .InputBox{
@@ -968,110 +947,69 @@ font-size: 4rem;
   background-color: var(--bg-color-secondary);
   color: var(--text-header);
 }
+
+
 /* responsividade */
 @media screen and (max-width: 375px) {
-  html {
-    width: 375px;
-    font-size: calc(
-      16 * clamp(0.7px, 100vw / var(--iphone-viewport-width), 1.3px)
-    );
-    height: 100%;
-    
-  }
-  .header-brand-logo {
-    flex: 0 0 50%;
-  }
-  .header-dropdown {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex: 0 0 50%;
-  }
-  .nav {
-    display: flex;
-    justify-content: space-between;
-    justify-items: center;
-    flex-wrap: wrap;
-  }
-  .active {
-    display: block;
-  }
+ 
+  
   .banner {
     justify-content: center;
+    left:0;
     width: 100%;
-    height: 10rem;
+    height: 100%;
     top:0;
     z-index:4;
+    padding: 0;
+    margin:0;
 
   }
   .banner img{
     width: 100%;
     height: 100px;
-    
-
+    padding: 0;
+    margin:0;
   }
   .banner-content {
     text-align: center;
     margin: 0;
-    left:5rem;
+    left:0%;
     top: 10rem;
     width: 100%;
     height: 100%;
     line-break: normal;
-    align-items: left;
-    align-content: left;
-    align-self: left;
+    align-items: center;
+    align-content: center;
+    align-self: center;
     padding:0;
   }
   .banner-content p {
     max-width: 100%;
-    text-align: left;
+    padding:0;
+    left:0;
+    top:0;
+    text-align: center;
+  }
+  .banner-content h1 {
+    max-width: 100%;
+    padding:0;
+    left:0;
+    top:0;
+    text-align: center;
   }
 
-  .go-to-top {
-    display: inherit;
-    right: 0.5rem;
-    bottom: 10%;
-  }
-  .container-body{
-    max-width: 600px;
-    width:100%;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    align-content: left;
-    padding: 0 0 1rem 0;
-    margin: 0;
-
-  }
+  
   .servicos{
     display: block;
-    width: 600px;
-    height: 100%;
-    position:relative;
-    padding: 1rem 0 2rem 0;
-    margin:0;
-
-  }
-  .servicos h1{
-    display: block;
     width: 100%;
-    height: 100%;
-    position:relative;
-    padding: 1rem 0 1rem 0;
+    position: relative;
+    padding: 1rem 0 6rem 0;
     margin:0;
+    height:100%;
+    max-height:100%;
 
-  }
-  .servicos p{
-    display: block;
-    width: 100%;
-    height: 100%;
-    position:relative;
-    padding: 1rem 0 1rem 0;
-    margin:0;
 
+    
   }
   .contents-serv{
     width: 100%;
@@ -1083,8 +1021,34 @@ font-size: 4rem;
     max-height:100%;
     column-gap:0;
     position:relative;
-    padding: 0 0 2rem 0;
+    max-height:100%;
+    padding: 6% 1% 3% 1%;
+
+
+  
+  
   }
+  .servicos p{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position:relative;
+    padding: 1rem 0 1rem 0;
+    margin:0;
+
+  }
+  
+  .servicos h1{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position:relative;
+    padding: 1rem 0 1rem 0;
+    margin:0;
+
+  }
+ 
+  
   .content-serv{
   width: 100%;
   height: 100%;
@@ -1100,7 +1064,7 @@ font-size: 4rem;
 
   }
   .content-serv i{
-    width:25%;
+    width:30%;
     height:70%;
     font-size: 6rem;
     color: var(--text-color);
@@ -1112,7 +1076,7 @@ font-size: 4rem;
     align-items: center;
     justify-content: center;
     align-items: center;
-    padding:2rem ;
+    padding:2rem;
     position:relative;
 
   
@@ -1134,10 +1098,11 @@ font-size: 4rem;
     }
     .content-serv p{
       text-align:center;
-      padding:1rem 4rem 1rem 4rem;
+      align-items: center;
+      max-width:100%;
+      padding:1rem 3rem 1rem 3rem;
       justify-items: auto;
       font-weight: 300;
-      font-size: 1.35rem;
       font-family: var(--font-footer);
       position:relative;
     }
@@ -1155,7 +1120,7 @@ font-size: 4rem;
   .ImagemEmpresa{
     display: block;
     position: relative;
-    height: 300px;
+    height: 200px;
     width: 100%;
     padding:0;
     margin:0;
@@ -1164,18 +1129,54 @@ font-size: 4rem;
     width: 100%;
     height: 100%;
   }
+
+  
   .CadastroCorpo{
     position: relative;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    display: block;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #70A7B3;
+  }
+  
+  .CadastroContainer{
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-top: 0%;
+    left: 0;
+    padding:2rem;
+  }
+  
+  .FormularioImagem{
+    display: flex;
+    align-content: left;
+    align-items: left;
+    justify-content: left;
+    background-color: antiquewhite;
+    display:NONE;
+
+    
+  }
+  
+  .FormularioImagem img{
+    display:NONE;
+    width: 25%;
+    height: 100%;
   }
   
   .Formulario{
     position: relative;
-    margin:0%;
+    max-width:100%;
+    width: 100%;
+    margin-left:0%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -1183,12 +1184,30 @@ font-size: 4rem;
     align-items: center;
     align-content: center;
     background-color: #70A7B3;
-    padding: 0;
+    padding: 0 3rem;
+    
+   
+    
   }
+  
+  .CadastroTitulo{
+    display: block;
+    top:1%;
+    font-family: var(--font-footer);
+    font-size: 2.2rem;
+    font-weight: 900;
+    text-shadow: 0.1rem 0.1rem 0.2rem rgb(255, 255, 255);
+    color: var(--bg-color-secondary);
+    content: '';
+    margin: 2rem 0 2rem 0;
+    height: 0.3;
+    justify-content: space-between;
+  }
+  
   .InputGroup{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 10rem;
+    column-gap: 1rem;
     column-width: 1rem;
     flex-wrap:wrap;
     align-items: center;
@@ -1196,7 +1215,16 @@ font-size: 4rem;
     align-content: center;
     justify-content: space-between;
     padding: 1rem 0;
+    width:100%;
     
+    
+  }
+  .InputBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: black;
   }
   .card_img{
     display: flex;
@@ -1245,9 +1273,13 @@ font-size: 4rem;
     max-height:100%;
     margin: 0;
   }
-
 }
+
+
 @media screen and (max-width: 600px) {
+ .header{
+  max-height: 100%;
+ }
   .header-navbar {
     display: none;
   }
@@ -1265,28 +1297,43 @@ font-size: 4rem;
     justify-content: space-between;
     justify-items: center;
     flex-wrap: wrap;
+    
+
   }
   .active {
     display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+   
   }
+  
+  .go-to-top {
+    display: inherit;
+    right: 0.5rem;
+    bottom: 10%;
+  }
+ 
   .banner {
     justify-content: center;
     width: 100%;
     height: 10rem;
     top:0;
-    z-index:4;
+    z-index:1;
+    position:relative;
 
   }
   .banner img{
     width: 100%;
     height: 100px;
-    
-
+    position:relative;
+    z-index:0;
   }
   .banner-content {
     text-align: center;
     margin: 0;
-    left:5rem;
+    left:0rem;
     top: 10rem;
     width: 100%;
     height: 100%;
@@ -1294,19 +1341,16 @@ font-size: 4rem;
     align-content: center;
     align-self: center;
     padding:0;
+    position:relative;
   }
   .banner-content p {
     max-width: 100%;
     text-align: left;
-  }
+    position:relative;
 
-  .go-to-top {
-    display: inherit;
-    right: 0.5rem;
-    bottom: 10%;
   }
   .container-body{
-    max-width: 600px;
+    max-width: 100%;
     width:100%;
     display: flex;
     position: relative;
@@ -1320,10 +1364,10 @@ font-size: 4rem;
   }
   .servicos{
     display: block;
-    width: 600px;
+    max-width: 100%;
     height: 100%;
     position:relative;
-    padding: 1rem 0 2rem 0;
+    padding: 1rem 0 10rem 0;
     margin:0;
 
   }
@@ -1337,10 +1381,11 @@ font-size: 4rem;
 
   }
   .servicos p{
-    display: block;
+    display: inline-block;
+    position:relative;
     width: 100%;
     height: 100%;
-    position:relative;
+    text-align:center;
     padding: 1rem 0 1rem 0;
     margin:0;
 
@@ -1355,7 +1400,7 @@ font-size: 4rem;
     max-height:100%;
     column-gap:0;
     position:relative;
-    padding: 0 0 2rem 0;
+    padding: 0 0 3rem 0;
   }
   .content-serv{
   width: 100%;
@@ -1372,8 +1417,6 @@ font-size: 4rem;
 
   }
   .content-serv i{
-    width:25%;
-    height:70%;
     font-size: 6rem;
     color: var(--text-color);
     border-radius:50%;
@@ -1396,7 +1439,7 @@ font-size: 4rem;
     font-weight: 900;
     text-shadow: rgb(131, 128, 128) 0.1rem 0.1rem 0.2rem;
     padding: 0; 
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin:0;
     align-items: center;
     justify-content: center;
@@ -1406,10 +1449,10 @@ font-size: 4rem;
     }
     .content-serv p{
       text-align:center;
-      padding:1rem 4rem 1rem 4rem;
+      padding:1rem 3rem 1rem 3rem;
       justify-items: auto;
       font-weight: 300;
-      font-size: 1.35rem;
+      font-size: 1.25rem;
       font-family: var(--font-footer);
       position:relative;
     }
@@ -1437,38 +1480,118 @@ font-size: 4rem;
     height: 100%;
   }
   .CadastroCorpo{
+    max-width:100%;
     position: relative;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    display: block;
+    align-items: left;
+    justify-content: left;
+    background-color: #70A7B3;
+  }
+  
+  .CadastroContainer{
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-top: 0%;
+    left: 0;
+  }
+  
+  .FormularioImagem{
+    display: none;
+  }
+  
+  .FormularioImagem img{
+    display:none;
   }
   
   .Formulario{
     position: relative;
-    margin:0%;
+    width: 100%;
     height: 100%;
     display: flex;
+    left: 0%;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    justify-content: left;
+    align-items: left;
+    align-content: left;
     background-color: #70A7B3;
-    padding: 0;
+    padding: 1rem;
+    
+   
+    
   }
+
+  
+  .CadastroTitulo{
+    display: block;
+    top:1%;
+    font-family: var(--font-footer);
+    font-size: 2.2rem;
+    font-weight: 900;
+    text-shadow: 0.1rem 0.1rem 0.2rem rgb(255, 255, 255);
+    color: var(--bg-color-secondary);
+    content: '';
+    margin: 2rem 0 2rem 0;
+    height: 0.3;
+    justify-content: space-between;
+  }
+  
   .InputGroup{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 10rem;
+    column-gap: 1rem;
     column-width: 1rem;
     flex-wrap:wrap;
-    align-items: center;
+    align-items: left;
     text-align: center;
-    align-content: center;
+    align-content: left;
     justify-content: space-between;
     padding: 1rem 0;
     
+    
+  }
+  .InputBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: black;
+  }
+
+  .InputBox input {
+    align-items: left;
+    align-content: flex-start;
+    text-align:center;
+    align-self: flex-start;
+    margin: 0.6rem 0rem;
+    padding: 0.7rem 1.1rem 0.7rem 0;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+  }
+  
+  .CadastroBotao{
+    width: 100%;
+    border: none;
+    background-color: var(--bg-color-secondary);
+    color:white;
+    font-size: 1.3rem;
+    padding: 0.62rem;
+    margin:2rem 0 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .CadastroBotao:hover{
+    background-color: black;
+    color: var(--text-header);
   }
   .card_img{
     display: flex;
@@ -1525,10 +1648,10 @@ font-size: 4rem;
       display: none;
   }
   .CadastroContainer {
-      width: 60%;
+      width: 100%;
   }
   .Formulario {
-      width: 80%;
+      width: 100%;
   }
 }
 @media screen and (max-width: 1480px) {
@@ -1581,14 +1704,16 @@ font-size: 4rem;
     position: relative;
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    padding:2rem;
+    display: block;
+    align-self: center;
+    align-content: center;
+    text-align: center;
     align-items: center;
   }
   
   .Formulario{
     position: relative;
-    margin:0%;
     width:100%;
     height: 100%;
     display: flex;
@@ -1602,14 +1727,14 @@ font-size: 4rem;
   .InputGroup{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 10rem;
+    column-gap: 4rem;
     column-width: 1rem;
     flex-wrap:wrap;
     align-items: center;
     text-align: center;
     align-content: center;
     justify-content: space-between;
-    padding: 1rem 0;
+    padding: 1rem 1rem;
     
   }
 
