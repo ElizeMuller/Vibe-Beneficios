@@ -284,7 +284,7 @@
             
                 
             
-                <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+                <form id="formulario" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
                 
                         <input type=hidden name="oid" value="00DDn000007pRNs">
                         <input type=hidden name="retURL" value="https://elizemuller.github.io/VibeBeneficios/Pages/agradecimentos.html">
@@ -318,12 +318,12 @@
             
                         <div class="InputBox">
                             <label><b>CPF</b></label>
-                            <input  id="00NDn00000MPnL5" maxlength="14" name="00NDn00000MPnL5" size="20" type="text" placeholder="Digite o seu CPF" />
+                            <input  id="00NDn00000MPnL5" minlength="11" maxlength="14" name="00NDn00000MPnL5" size="20" type="text" placeholder="Digite o seu CPF" />
                         </div> <!-- InputBox -->
                         
                         <div class="InputBox">
                             <label ><b>CNPJ</b></label>
-                            <input  id="00NDn00000Ow2Qv" maxlength="14" name="00NDn00000Ow2Qv" size="20" type="text" placeholder="Digite seu CNPJ" /><br>
+                            <input  id="00NDn00000Ow2Qv" minlength="11" maxlength="14" name="00NDn00000Ow2Qv" size="20" type="text" placeholder="Digite seu CNPJ" /><br>
                         </div> <!-- InputBox -->
             
                         <!--<div class="InputBox">
@@ -356,13 +356,13 @@
             
                         <div class="InputBox">
                             <label for="company"><b>Empresa</b></label>
-                            <input  id="company" maxlength="40" name="company" size="20" type="text" placeholder="Digite o nome da sua empresa" required /><br>
+                            <input  id="company" maxlength="40" name="company" size="20" type="text" placeholder="Nome da empresa" required /><br>
                         </div> <!-- InputBox -->
 
                                                 
                         <div class="InputBox">
                           <label for="city"><b>Cidade</b></label>
-                          <input  id="city" maxlength="40" name="city" size="20" type="text" placeholder="Digite a sua cidade" />
+                          <input  id="city" maxlength="40" name="city" size="20" type="text" placeholder="Digite a sua cidade" /><br>
                       </div> <!-- InputBox -->
 
                         <div class="Pais">
@@ -412,7 +412,7 @@
                                 <option value="">-- Nenhum --</option><option value="Vibe Vip">Vibe Vip</option>
                                 <option value="Vibe Premium">Vibe Premium</option>
                                 <option value="Vibe Platinum">Vibe Platinum</option>
-                                </select><br>
+                                </select>
                         </div> <!-- InputBox -->
                         </div> <!-- InputGroup -->
                         <input type="submit" name="submit" class="CadastroBotao" id="BotaoOrg" onclick="cadastrese()">
